@@ -10,7 +10,6 @@
         <style>
             body, .content {
                 border: 0px;
-                position: absolute;
                 width: 100%;
                 height: 100%;
                 padding: 0px;
@@ -97,6 +96,8 @@
                     },
                     options: {
                         responsive: true,
+                        maintainAspectRatio: false,
+                        responsiveAnimationDuration: 10,
                         title: {
                             display: true,
                             text: 'Requested Chart'

@@ -160,8 +160,12 @@
         }
 
         function load() {
-            var xaxis = valueOr(GET("x"), "meltingPoint")
-            var yaxis = valueOr(GET("y"), "boilingPoint")
+            var xaxis = GET("x")
+            var yaxis = GET("y")
+
+            if (!(xaxis == null || xaxis == undefined)) document.getElementById('xaxisselect').value = xaxis
+            if (!(yaxis == null || yaxis == undefined)) document.getElementById('yaxisselect').value = yaxis
+
             updateGraph()
             document.getElementById('xaxisselect').addEventListener('input', updateGraph)
             document.getElementById('yaxisselect').addEventListener('input', updateGraph)
