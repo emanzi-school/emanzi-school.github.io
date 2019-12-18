@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Chem Project - Data View</title>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.js" integrity="sha256-8zyeSXm+yTvzUN1VgAOinFgaVFEFTyYzWShOy9w7WoQ=" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navigation">
+                <a class="navbar-brand" href="#" open-activity="home">Periodic Table Research Project</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                    <a id="nav-button-home" class="nav-item nav-link" href="index.html">Home</a>
+                    <a id="nav-button-data" class="nav-item nav-link active" href="dataview.html" open-activity="data">Datasheet</a>
+                    <a id="nav-button-graph" class="nav-item nav-link" href="graphhome.html" open-activity="graph-home">Graphs</a>
+                    </div>
+                </div>
+            </nav>
+
+            <br>
+
+            <!-- Start the actual content now -->
+            <div id="container" class="container">
+                <canvas id="graph" width="500" height="500" style="border: 2px solid black;"></canvas>
+            </div>
+        </div>
+    </body>
+
+    <!-- My Code-->
+    <script>
+        elems = []
+
+        function $_GET(q,s) {
+            s = s ? s : window.location.search;
+            var re = new RegExp('&'+q+'(?:=([^&]*))?(?=&|$)','i');
+            return (s=s.replace(/^?/,'&').match(re)) ? (typeof s[1] == 'undefined' ? '' : decodeURIComponent(s[1])) : undefined;
+        }
+
+        function httpGetAsync(url, callback) {
+            var xmlHttp = new XMLHttpRequest()
+            xmlHttp.onreadystatechange = function() { 
+                if (xmlHttp.readyState == 4 && xmlHttp.status == 200)
+                    callback(xmlHttp.responseText)
+            }
+            xmlHttp.open("GET", url, true)
+            xmlHttp.send(null)
+        }
+
+        function valueOr(val, def) {
+            if (def == null || def == undefined) def = ""
+            if (val == null || val == undefined) return def
+            return val
+        }
+
+        function getGraphData(xaxis, yaxis) {
+            var dataset = []
+            for (var i=0; i<elems.length; i++) {
+                console.log(`POINT # ${i} => (${elems[i][xaxis]},${elems[i][yaxis]})`)
+                dataset.push({
+                    x: elems[i][xaxis],
+                    y: elems[i][yaxis]
+                })
+            }
+            return dataset
+        }
+
+        function loadGraph() {
+            console.log(`There are ${elems.length} elements avaiable!`)
+            console.log("displaying graph")
+            var xaxis = "number"
+            var yaxis = "atomicRadius"
+
+            var chart = new Chart(document.getElementById('graph').getContext('2d'), {
+                type: "line",
+                data: getGraphData(),
+                options: {}
+            })
+            console.log("graph displayed!")
+        }
+
+        function load() {
+            console.log("Fetching elements!")
+            httpGetAsync("https://emanzi-school.github.io/chem/3/9/data/elements.json", (response) => {
+                httpGetAsync("https://emanzi-school.github.io/chem/3/9/data/elements_2.json", (r2) => {
+                    const elements = JSON.parse(response)
+                    const e2 = JSON.parse(r2)
+                    const content = document.getElementById("content")
+                    for (var i=0; i<elements.length; i++) {
+                        console.log(`[!] => (${elements[i].number},${elements[i].atomicRadius})`)
+                        try {
+                        elems.push({
+                            number: elements[i].number,
+                            symbol: elements[i].symbol,
+                            name: elements[i].name,
+                            mass: elements[i].mass,
+                            meltingPoint: e2[i].meltingPoint,
+                            boilingPoint: e2[i].boilingPoint,
+                            atomicRadius: elements[i].atomicRadius,
+                            firstIronEnergy: elements[i].firstIonEnergy
+                        })
+                        } catch {}
+                    }
+                    console.log("-------------------[ DONE ]-------------------")
+                    console.log(JSON.stringify(elems))
+                    return
+                    loadGraph()
+                })
+            })
+        }
+
+        window.addEventListener("load", () => {
+            load()
+        })
+    </script>
+</html>
