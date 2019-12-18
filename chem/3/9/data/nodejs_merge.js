@@ -6,8 +6,6 @@ var texts = [
     fs.readFileSync('./in/elements_3.json', 'utf8')
 ]
 
-console.log(texts[1])
-
 var sets = [
     JSON.parse(texts[0]),
     JSON.parse(texts[1]),
@@ -31,11 +29,30 @@ var output = []
 "electronegativity": 2.66
 */
 
+var ramstrip = (v) => {
+    if (v.charAt(0) == "[") return parseFloat(v.substr(1,v.length-1))
+    return parseFloat(v)
+}
+
 for (var i=0; i<sets[1].length; i++) {
     console.log(`Adding element #${i+1}`)
     var e1 = sets[0][i]
     var e2 = sets[1][i]
     var e3 = sets[2][i]
+
+    var mass
+
+    if (e2["relativeAtomicMass"] == null || e2["relativeAtomicMass"] == undefined) {
+        mass = e1["mass"]
+    } else if (e1["mass"] == null || e1["mass"] == undefined) {
+        mass = ramstrip(e2["relativeAtomicMass"])
+    } else {
+        var m1 = e1["mass"]
+        var m2 = ramstrip(e2["relativeAtomicMass"])
+        var ma = (m1 + m2) / 2
+        mass = ma
+    }
+
     output.push({
         group: e2["Group"],
         meltingPoint: e2["meltingPoint"],
@@ -43,7 +60,7 @@ for (var i=0; i<sets[1].length; i++) {
         boilingPoint: e2["boilingPoint"],
         block: e2["Block"],
         density: e2["density"],
-        relativeAtomicMass: e2["relativeAtomicMass"],
+        relativeAtomicMass: ramstrip(e2["relativeAtomicMass"]),
         stateAtTwentyC: e2["stateAtTwentyC"],
         keyIsotopes: e2["keyIsotopes"],
         electronConfiguration: e2["electronConfiguration"],
@@ -53,7 +70,8 @@ for (var i=0; i<sets[1].length; i++) {
         firstIonEnergy: e1["firstIonEnergy"],
         atomicRadius: e1["atomicRadius"],
         valenceElectrons: e1["valenceElectrons"],
-        electronegativity: e3["electronegativity"]
+        electronegativity: e3["electronegativity"],
+        mass: mass
     })
 }
 

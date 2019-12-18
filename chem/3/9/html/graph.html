@@ -130,28 +130,47 @@
             var chart = new Chart(document.getElementById('graph').getContext('2d'), config)
         }
 
+        /*
+            "group": "Actinides",
+            "meltingPoint": 1627,
+            "period": 7,
+            "boilingPoint": null,
+            "block": "f",
+            "density": null,
+            "relativeAtomicMass": "[262]",
+            "stateAtTwentyC": "Solid",
+            "keyIsotopes": "262Lr",
+            "electronConfiguration": "[Rn] 5f147s27p1",
+            "atomicNumber": 103,
+            "symbol": "Lr",
+            "name": "Lawrencium",
+            "firstIonEnergy": 4.9,
+            "atomicRadius": null,
+            "valenceElectrons": null,
+            "electronegativity": null
+        */
+
         function load() {
             console.log("Fetching elements!")
             httpGetAsync("https://emanzi-school.github.io/chem/3/9/data/elements.json", (response) => {
                 const elements = JSON.parse(response)
                 for (var i=0; i<elements.length; i++) {
                     elems.push({
-                        group: elements[i].Group,
-                        meltingPoint: elements[i].meltingPoint,
-                        period: elements[i].Period,
-                        boilingPoint: elements[i].boilingPoint,
-                        block: elements[i].Block,
-                        density: elements[i].density,
-                        number: elements[i].number,
-                        relativeAtomicMass: elements[i].relativeAtomicMass,
-                        stateAtTwentyC: elements[i].stateAtTwentyC,
-                        keyIsotopes: [i].keyIsotopes,
-                        electronConfiguration: elements[i].electronConfiguration,
-                        symbol: elements[i].symbol,
-                        name: elements[i].name,
-                        mass: elements[i].mass,
-                        atomicRadius: elements[i].atomicRadius,
-                        firstIronEnergy: elements[i].firstIonEnergy
+                        group: elements[i]["group"],
+                        meltingPoint: elements[i]["meltingPoint"],
+                        period: elements[i]["period"],
+                        boilingPoint: elements[i]["boilingPoint"],
+                        block: elements[i]["block"],
+                        density: elements[i]["density"],
+                        number: elements[i]["atomicNumber"],
+                        stateAtTwentyC: elements[i]["stateAtTwentyC"],
+                        keyIsotopes: elements[i]["keyIsotopes"],
+                        electronConfiguration: elements[i]["electronConfiguration"],
+                        symbol: elements[i]["symbol"],
+                        name: elements[i]["name"],
+                        mass: elements[i]["mass"],
+                        atomicRadius: elements[i]["atomicRadius"],
+                        firstIronEnergy: elements[i]["firstIonEnergy"]
                     })
                 }
                 makeGraph()

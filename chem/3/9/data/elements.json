@@ -6,7 +6,7 @@
         "boilingPoint": -252.879,
         "block": "s",
         "density": 0.000082,
-        "relativeAtomicMass": "1.008",
+        "relativeAtomicMass": 1.008,
         "stateAtTwentyC": "Gas",
         "keyIsotopes": "1H, 2H",
         "electronConfiguration": "1s1",
@@ -16,7 +16,8 @@
         "firstIonEnergy": 13.59844,
         "atomicRadius": 25,
         "valenceElectrons": 38,
-        "electronegativity": 2.2
+        "electronegativity": 2.2,
+        "mass": 1.0074999999999998
     },
     {
         "group": 18,
@@ -25,7 +26,7 @@
         "boilingPoint": -268.928,
         "block": "s",
         "density": 0.000164,
-        "relativeAtomicMass": "4.003",
+        "relativeAtomicMass": 4.003,
         "stateAtTwentyC": "Gas",
         "keyIsotopes": "4He",
         "electronConfiguration": "1s2",
@@ -35,7 +36,8 @@
         "firstIonEnergy": 24.58741,
         "atomicRadius": 31,
         "valenceElectrons": 32,
-        "electronegativity": null
+        "electronegativity": null,
+        "mass": 4.002801
     },
     {
         "group": 1,
@@ -44,7 +46,7 @@
         "boilingPoint": 1342,
         "block": "s",
         "density": 0.534,
-        "relativeAtomicMass": "6.94",
+        "relativeAtomicMass": 6.94,
         "stateAtTwentyC": "Solid",
         "keyIsotopes": "7Li",
         "electronConfiguration": "[He] 2s1",
@@ -54,7 +56,8 @@
         "firstIonEnergy": 5.39172,
         "atomicRadius": 145,
         "valenceElectrons": 134,
-        "electronegativity": 0.98
+        "electronegativity": 0.98,
+        "mass": 6.9405
     },
     {
         "group": 2,
@@ -63,7 +66,7 @@
         "boilingPoint": 2468,
         "block": "s",
         "density": 1.85,
-        "relativeAtomicMass": "9.012",
+        "relativeAtomicMass": 9.012,
         "stateAtTwentyC": "Solid",
         "keyIsotopes": "9Be",
         "electronConfiguration": "[He] 2s2",
@@ -73,7 +76,8 @@
         "firstIonEnergy": 9.3227,
         "atomicRadius": 105,
         "valenceElectrons": 90,
-        "electronegativity": 1.57
+        "electronegativity": 1.57,
+        "mass": 9.012091
     },
     {
         "group": 13,
@@ -82,7 +86,7 @@
         "boilingPoint": 4000,
         "block": "p",
         "density": 2.34,
-        "relativeAtomicMass": "10.81",
+        "relativeAtomicMass": 10.81,
         "stateAtTwentyC": "Solid",
         "keyIsotopes": "11B",
         "electronConfiguration": "[He] 2s22p1",
@@ -92,7 +96,8 @@
         "firstIonEnergy": 8.29803,
         "atomicRadius": 85,
         "valenceElectrons": 82,
-        "electronegativity": 2.04
+        "electronegativity": 2.04,
+        "mass": 10.810500000000001
     },
     {
         "group": 14,
@@ -101,7 +106,7 @@
         "boilingPoint": 3825,
         "block": "p",
         "density": 3.513,
-        "relativeAtomicMass": "12.011",
+        "relativeAtomicMass": 12.011,
         "stateAtTwentyC": "Solid",
         "keyIsotopes": "12C, 13C, 14C",
         "electronConfiguration": "[He] 2s22p2",
@@ -111,7 +116,8 @@
         "firstIonEnergy": 11.2603,
         "atomicRadius": 70,
         "valenceElectrons": 77,
-        "electronegativity": 2.55
+        "electronegativity": 2.55,
+        "mass": 12.01085
     },
     {
         "group": 15,
@@ -120,7 +126,7 @@
         "boilingPoint": -195.795,
         "block": "p",
         "density": 0.001145,
-        "relativeAtomicMass": "14.007",
+        "relativeAtomicMass": 14.007,
         "stateAtTwentyC": "Gas",
         "keyIsotopes": "14N",
         "electronConfiguration": "[He] 2s22p3",
@@ -130,7 +136,8 @@
         "firstIonEnergy": 14.53414,
         "atomicRadius": 65,
         "valenceElectrons": 75,
-        "electronegativity": 3.04
+        "electronegativity": 3.04,
+        "mass": 14.00685
     },
     {
         "group": 16,
@@ -139,7 +146,7 @@
         "boilingPoint": -182.962,
         "block": "p",
         "density": 0.001308,
-        "relativeAtomicMass": "15.999",
+        "relativeAtomicMass": 15.999,
         "stateAtTwentyC": "Gas",
         "keyIsotopes": "16O",
         "electronConfiguration": "[He] 2s22p4",
@@ -149,7 +156,8 @@
         "firstIonEnergy": 13.61806,
         "atomicRadius": 60,
         "valenceElectrons": 73,
-        "electronegativity": 3.44
+        "electronegativity": 3.44,
+        "mass": 15.9992
     },
     {
         "group": 17,
@@ -158,7 +166,7 @@
         "boilingPoint": -188.11,
         "block": "p",
         "density": 0.001553,
-        "relativeAtomicMass": "18.998",
+        "relativeAtomicMass": 18.998,
         "stateAtTwentyC": "Gas",
         "keyIsotopes": "19F",
         "electronConfiguration": "[He] 2s22p5",
@@ -168,7 +176,8 @@
         "firstIonEnergy": 17.42282,
         "atomicRadius": 50,
         "valenceElectrons": 71,
-        "electronegativity": 3.98
+        "electronegativity": 3.98,
+        "mass": 18.9982016
     },
     {
         "group": 18,
@@ -177,7 +186,7 @@
         "boilingPoint": -246.046,
         "block": "p",
         "density": 0.000825,
-        "relativeAtomicMass": "20.180",
+        "relativeAtomicMass": 20.18,
         "stateAtTwentyC": "Gas",
         "keyIsotopes": "20Ne",
         "electronConfiguration": "[He] 2s22p6",
@@ -187,7 +196,8 @@
         "firstIonEnergy": 21.5646,
         "atomicRadius": 38,
         "valenceElectrons": 69,
-        "electronegativity": null
+        "electronegativity": null,
+        "mass": 20.179850000000002
     },
     {
         "group": 1,
@@ -196,7 +206,7 @@
         "boilingPoint": 882.94,
         "block": "s",
         "density": 0.97,
-        "relativeAtomicMass": "22.990",
+        "relativeAtomicMass": 22.99,
         "stateAtTwentyC": "Solid",
         "keyIsotopes": "23Na",
         "electronConfiguration": "[Ne] 3s1",
@@ -206,7 +216,8 @@
         "firstIonEnergy": 5.13908,
         "atomicRadius": 180,
         "valenceElectrons": 154,
-        "electronegativity": 0.93
+        "electronegativity": 0.93,
+        "mass": 22.98988464
     },
     {
         "group": 2,
@@ -215,7 +226,7 @@
         "boilingPoint": 1090,
         "block": "s",
         "density": 1.74,
-        "relativeAtomicMass": "24.305",
+        "relativeAtomicMass": 24.305,
         "stateAtTwentyC": "Solid",
         "keyIsotopes": "24Mg",
         "electronConfiguration": "[Ne] 3s2",
@@ -225,7 +236,8 @@
         "firstIonEnergy": 7.64624,
         "atomicRadius": 150,
         "valenceElectrons": 130,
-        "electronegativity": 1.31
+        "electronegativity": 1.31,
+        "mass": 24.305
     },
     {
         "group": 13,
@@ -234,7 +246,7 @@
         "boilingPoint": 2519,
         "block": "p",
         "density": 2.7,
-        "relativeAtomicMass": "26.982",
+        "relativeAtomicMass": 26.982,
         "stateAtTwentyC": "Solid",
         "keyIsotopes": "27Al",
         "electronConfiguration": "[Ne] 3s23p1",
@@ -244,7 +256,8 @@
         "firstIonEnergy": 5.98577,
         "atomicRadius": 125,
         "valenceElectrons": 118,
-        "electronegativity": 1.61
+        "electronegativity": 1.61,
+        "mass": 26.9817693
     },
     {
         "group": 14,
@@ -253,7 +266,7 @@
         "boilingPoint": 3265,
         "block": "p",
         "density": 2.3296,
-        "relativeAtomicMass": "28.085",
+        "relativeAtomicMass": 28.085,
         "stateAtTwentyC": "Solid",
         "keyIsotopes": "28Si, 30Si",
         "electronConfiguration": "[Ne] 3s23p2",
@@ -263,7 +276,8 @@
         "firstIonEnergy": 8.15169,
         "atomicRadius": 110,
         "valenceElectrons": 111,
-        "electronegativity": 1.9
+        "electronegativity": 1.9,
+        "mass": 28.085250000000002
     },
     {
         "group": 15,
@@ -272,7 +286,7 @@
         "boilingPoint": 280.5,
         "block": "p",
         "density": 1.823,
-        "relativeAtomicMass": "30.974",
+        "relativeAtomicMass": 30.974,
         "stateAtTwentyC": "Solid",
         "keyIsotopes": "31P",
         "electronConfiguration": "[Ne] 3s23p3",
@@ -282,7 +296,8 @@
         "firstIonEnergy": 10.48669,
         "atomicRadius": 100,
         "valenceElectrons": 106,
-        "electronegativity": 2.19
+        "electronegativity": 2.19,
+        "mass": 30.973881
     },
     {
         "group": 16,
@@ -291,7 +306,7 @@
         "boilingPoint": 444.61,
         "block": "p",
         "density": 2.07,
-        "relativeAtomicMass": "32.06",
+        "relativeAtomicMass": 32.06,
         "stateAtTwentyC": "Solid",
         "keyIsotopes": "32S",
         "electronConfiguration": "[Ne] 3s23p4",
@@ -301,7 +316,8 @@
         "firstIonEnergy": 10.36001,
         "atomicRadius": 100,
         "valenceElectrons": 102,
-        "electronegativity": 2.58
+        "electronegativity": 2.58,
+        "mass": 32.0625
     },
     {
         "group": 17,
@@ -310,7 +326,7 @@
         "boilingPoint": -34.04,
         "block": "p",
         "density": 0.002898,
-        "relativeAtomicMass": "35.45",
+        "relativeAtomicMass": 35.45,
         "stateAtTwentyC": "Gas",
         "keyIsotopes": "35Cl, 37Cl",
         "electronConfiguration": "[Ne] 3s23p5",
@@ -320,7 +336,8 @@
         "firstIonEnergy": 12.96764,
         "atomicRadius": 100,
         "valenceElectrons": 99,
-        "electronegativity": 3.16
+        "electronegativity": 3.16,
+        "mass": 35.4515
     },
     {
         "group": 18,
@@ -329,7 +346,7 @@
         "boilingPoint": -185.848,
         "block": "p",
         "density": 0.001633,
-        "relativeAtomicMass": "39.95",
+        "relativeAtomicMass": 39.95,
         "stateAtTwentyC": "Gas",
         "keyIsotopes": "40Ar",
         "electronConfiguration": "[Ne] 3s23p6",
@@ -339,7 +356,8 @@
         "firstIonEnergy": 15.75962,
         "atomicRadius": 71,
         "valenceElectrons": 97,
-        "electronegativity": null
+        "electronegativity": null,
+        "mass": 39.949
     },
     {
         "group": 1,
@@ -348,7 +366,7 @@
         "boilingPoint": 759,
         "block": "s",
         "density": 0.89,
-        "relativeAtomicMass": "39.098",
+        "relativeAtomicMass": 39.098,
         "stateAtTwentyC": "Solid",
         "keyIsotopes": "39K",
         "electronConfiguration": "[Ar] 4s1",
@@ -358,7 +376,8 @@
         "firstIonEnergy": 4.34066,
         "atomicRadius": 220,
         "valenceElectrons": 196,
-        "electronegativity": 0.82
+        "electronegativity": 0.82,
+        "mass": 39.098150000000004
     },
     {
         "group": 2,
@@ -367,7 +386,7 @@
         "boilingPoint": 1484,
         "block": "s",
         "density": 1.54,
-        "relativeAtomicMass": "40.078",
+        "relativeAtomicMass": 40.078,
         "stateAtTwentyC": "Solid",
         "keyIsotopes": "40Ca",
         "electronConfiguration": "[Ar] 4s2",
@@ -377,7 +396,8 @@
         "firstIonEnergy": 6.11316,
         "atomicRadius": 180,
         "valenceElectrons": 174,
-        "electronegativity": 1
+        "electronegativity": 1,
+        "mass": 40.078
     },
     {
         "group": 3,
@@ -386,7 +406,7 @@
         "boilingPoint": 2836,
         "block": "d",
         "density": 2.99,
-        "relativeAtomicMass": "44.956",
+        "relativeAtomicMass": 44.956,
         "stateAtTwentyC": "Solid",
         "keyIsotopes": "45Sc",
         "electronConfiguration": "[Ar] 3d14s2",
@@ -396,7 +416,8 @@
         "firstIonEnergy": 6.5615,
         "atomicRadius": 160,
         "valenceElectrons": 144,
-        "electronegativity": 1.36
+        "electronegativity": 1.36,
+        "mass": 44.955956
     },
     {
         "group": 4,
@@ -405,7 +426,7 @@
         "boilingPoint": 3287,
         "block": "d",
         "density": 4.506,
-        "relativeAtomicMass": "47.867",
+        "relativeAtomicMass": 47.867,
         "stateAtTwentyC": "Solid",
         "keyIsotopes": "48Ti",
         "electronConfiguration": "[Ar] 3d24s2",
@@ -415,7 +436,8 @@
         "firstIonEnergy": 6.8281,
         "atomicRadius": 140,
         "valenceElectrons": 136,
-        "electronegativity": 1.54
+        "electronegativity": 1.54,
+        "mass": 47.867
     },
     {
         "group": 5,
@@ -424,7 +446,7 @@
         "boilingPoint": 3407,
         "block": "d",
         "density": 6,
-        "relativeAtomicMass": "50.942",
+        "relativeAtomicMass": 50.942,
         "stateAtTwentyC": "Solid",
         "keyIsotopes": "51V",
         "electronConfiguration": "[Ar] 3d34s2",
@@ -434,7 +456,8 @@
         "firstIonEnergy": 6.7462,
         "atomicRadius": 135,
         "valenceElectrons": 125,
-        "electronegativity": 1.63
+        "electronegativity": 1.63,
+        "mass": 50.94175
     },
     {
         "group": 6,
@@ -443,7 +466,7 @@
         "boilingPoint": 2671,
         "block": "d",
         "density": 7.15,
-        "relativeAtomicMass": "51.996",
+        "relativeAtomicMass": 51.996,
         "stateAtTwentyC": "Solid",
         "keyIsotopes": "52Cr",
         "electronConfiguration": "[Ar] 3d54s1",
@@ -453,7 +476,8 @@
         "firstIonEnergy": 6.7665,
         "atomicRadius": 140,
         "valenceElectrons": 127,
-        "electronegativity": 1.66
+        "electronegativity": 1.66,
+        "mass": 51.99605
     },
     {
         "group": 7,
@@ -462,7 +486,7 @@
         "boilingPoint": 2061,
         "block": "d",
         "density": 7.3,
-        "relativeAtomicMass": "54.938",
+        "relativeAtomicMass": 54.938,
         "stateAtTwentyC": "Solid",
         "keyIsotopes": "55Mn",
         "electronConfiguration": "[Ar] 3d54s2",
@@ -472,7 +496,8 @@
         "firstIonEnergy": 7.43402,
         "atomicRadius": 140,
         "valenceElectrons": 139,
-        "electronegativity": 1.55
+        "electronegativity": 1.55,
+        "mass": 54.9380225
     },
     {
         "group": 8,
@@ -481,7 +506,7 @@
         "boilingPoint": 2861,
         "block": "d",
         "density": 7.87,
-        "relativeAtomicMass": "55.845",
+        "relativeAtomicMass": 55.845,
         "stateAtTwentyC": "Solid",
         "keyIsotopes": "56Fe",
         "electronConfiguration": "[Ar] 3d64s2",
@@ -491,7 +516,8 @@
         "firstIonEnergy": 7.9024,
         "atomicRadius": 140,
         "valenceElectrons": 125,
-        "electronegativity": 1.83
+        "electronegativity": 1.83,
+        "mass": 55.845
     },
     {
         "group": 9,
@@ -500,7 +526,7 @@
         "boilingPoint": 2927,
         "block": "d",
         "density": 8.86,
-        "relativeAtomicMass": "58.933",
+        "relativeAtomicMass": 58.933,
         "stateAtTwentyC": "Solid",
         "keyIsotopes": "59Co",
         "electronConfiguration": "[Ar] 3d74s2",
@@ -510,7 +536,8 @@
         "firstIonEnergy": 7.6398,
         "atomicRadius": 135,
         "valenceElectrons": 121,
-        "electronegativity": 1.88
+        "electronegativity": 1.88,
+        "mass": 58.9330975
     },
     {
         "group": 10,
@@ -519,7 +546,7 @@
         "boilingPoint": 2913,
         "block": "d",
         "density": 8.9,
-        "relativeAtomicMass": "58.693",
+        "relativeAtomicMass": 58.693,
         "stateAtTwentyC": "Solid",
         "keyIsotopes": "58Ni",
         "electronConfiguration": "[Ar] 3d84s2",
@@ -529,7 +556,8 @@
         "firstIonEnergy": 7.881,
         "atomicRadius": 135,
         "valenceElectrons": 126,
-        "electronegativity": 1.91
+        "electronegativity": 1.91,
+        "mass": 58.6932
     },
     {
         "group": 11,
@@ -538,7 +566,7 @@
         "boilingPoint": 2560,
         "block": "d",
         "density": 8.96,
-        "relativeAtomicMass": "63.546",
+        "relativeAtomicMass": 63.546,
         "stateAtTwentyC": "Solid",
         "keyIsotopes": "63Cu",
         "electronConfiguration": "[Ar] 3d104s1",
@@ -548,7 +576,8 @@
         "firstIonEnergy": 7.72638,
         "atomicRadius": 135,
         "valenceElectrons": 138,
-        "electronegativity": 1.9
+        "electronegativity": 1.9,
+        "mass": 63.546
     },
     {
         "group": 12,
@@ -557,7 +586,7 @@
         "boilingPoint": 907,
         "block": "d",
         "density": 7.134,
-        "relativeAtomicMass": "65.38",
+        "relativeAtomicMass": 65.38,
         "stateAtTwentyC": "Solid",
         "keyIsotopes": "64Zn",
         "electronConfiguration": "[Ar] 3d104s2",
@@ -567,7 +596,8 @@
         "firstIonEnergy": 9.3942,
         "atomicRadius": 135,
         "valenceElectrons": 131,
-        "electronegativity": 1.65
+        "electronegativity": 1.65,
+        "mass": 65.38
     },
     {
         "group": 13,
@@ -576,7 +606,7 @@
         "boilingPoint": 2229,
         "block": "p",
         "density": 5.91,
-        "relativeAtomicMass": "69.723",
+        "relativeAtomicMass": 69.723,
         "stateAtTwentyC": "Solid",
         "keyIsotopes": "69Ga",
         "electronConfiguration": "[Ar] 3d104s24p1",
@@ -586,7 +616,8 @@
         "firstIonEnergy": 5.9993,
         "atomicRadius": 130,
         "valenceElectrons": 126,
-        "electronegativity": 1.81
+        "electronegativity": 1.81,
+        "mass": 69.723
     },
     {
         "group": 14,
@@ -595,7 +626,7 @@
         "boilingPoint": 2833,
         "block": "p",
         "density": 5.3234,
-        "relativeAtomicMass": "72.630",
+        "relativeAtomicMass": 72.63,
         "stateAtTwentyC": "Solid",
         "keyIsotopes": "73Ge, 74Ge",
         "electronConfiguration": "[Ar] 3d104s24p2",
@@ -605,7 +636,8 @@
         "firstIonEnergy": 7.8994,
         "atomicRadius": 125,
         "valenceElectrons": 122,
-        "electronegativity": 2.01
+        "electronegativity": 2.01,
+        "mass": 72.63
     },
     {
         "group": 15,
@@ -614,7 +646,7 @@
         "boilingPoint": 616,
         "block": "p",
         "density": 5.75,
-        "relativeAtomicMass": "74.922",
+        "relativeAtomicMass": 74.922,
         "stateAtTwentyC": "Solid",
         "keyIsotopes": "75As",
         "electronConfiguration": "[Ar] 3d104s24p3",
@@ -624,7 +656,8 @@
         "firstIonEnergy": 9.7886,
         "atomicRadius": 115,
         "valenceElectrons": 119,
-        "electronegativity": 2.18
+        "electronegativity": 2.18,
+        "mass": 74.92179999999999
     },
     {
         "group": 16,
@@ -633,7 +666,7 @@
         "boilingPoint": 685,
         "block": "p",
         "density": 4.809,
-        "relativeAtomicMass": "78.971",
+        "relativeAtomicMass": 78.971,
         "stateAtTwentyC": "Solid",
         "keyIsotopes": "80Se",
         "electronConfiguration": "[Ar] 3d104s24p4",
@@ -643,7 +676,8 @@
         "firstIonEnergy": 9.75238,
         "atomicRadius": 115,
         "valenceElectrons": 116,
-        "electronegativity": 2.55
+        "electronegativity": 2.55,
+        "mass": 78.96549999999999
     },
     {
         "group": 17,
@@ -652,7 +686,7 @@
         "boilingPoint": 58.8,
         "block": "p",
         "density": 3.1028,
-        "relativeAtomicMass": "79.904",
+        "relativeAtomicMass": 79.904,
         "stateAtTwentyC": "Liquid",
         "keyIsotopes": "79Br",
         "electronConfiguration": "[Ar] 3d104s24p5",
@@ -662,7 +696,8 @@
         "firstIonEnergy": 11.81381,
         "atomicRadius": 115,
         "valenceElectrons": 114,
-        "electronegativity": 2.96
+        "electronegativity": 2.96,
+        "mass": 79.904
     },
     {
         "group": 18,
@@ -671,7 +706,7 @@
         "boilingPoint": -153.415,
         "block": "p",
         "density": 0.003425,
-        "relativeAtomicMass": "83.798",
+        "relativeAtomicMass": 83.798,
         "stateAtTwentyC": "Gas",
         "keyIsotopes": "84Kr",
         "electronConfiguration": "[Ar] 3d104s24p6",
@@ -681,7 +716,8 @@
         "firstIonEnergy": 13.99961,
         "atomicRadius": 88,
         "valenceElectrons": 110,
-        "electronegativity": 3
+        "electronegativity": 3,
+        "mass": 83.798
     },
     {
         "group": 1,
@@ -690,7 +726,7 @@
         "boilingPoint": 688,
         "block": "s",
         "density": 1.53,
-        "relativeAtomicMass": "85.468",
+        "relativeAtomicMass": 85.468,
         "stateAtTwentyC": "Solid",
         "keyIsotopes": "85Rb, 87Rb",
         "electronConfiguration": "[Kr] 5s1",
@@ -700,7 +736,8 @@
         "firstIonEnergy": 4.17713,
         "atomicRadius": 235,
         "valenceElectrons": 211,
-        "electronegativity": 0.82
+        "electronegativity": 0.82,
+        "mass": 85.4679
     },
     {
         "group": 2,
@@ -709,7 +746,7 @@
         "boilingPoint": 1377,
         "block": "s",
         "density": 2.64,
-        "relativeAtomicMass": "87.62",
+        "relativeAtomicMass": 87.62,
         "stateAtTwentyC": "Solid",
         "keyIsotopes": "86Sr, 87Sr, 88Sr",
         "electronConfiguration": "[Kr] 5s2",
@@ -719,7 +756,8 @@
         "firstIonEnergy": 5.6949,
         "atomicRadius": 200,
         "valenceElectrons": 192,
-        "electronegativity": 0.95
+        "electronegativity": 0.95,
+        "mass": 87.62
     },
     {
         "group": 3,
@@ -728,7 +766,7 @@
         "boilingPoint": 3345,
         "block": "d",
         "density": 4.47,
-        "relativeAtomicMass": "88.906",
+        "relativeAtomicMass": 88.906,
         "stateAtTwentyC": "Solid",
         "keyIsotopes": "89Y",
         "electronConfiguration": "[Kr] 4d15s2",
@@ -738,7 +776,8 @@
         "firstIonEnergy": 6.2171,
         "atomicRadius": 180,
         "valenceElectrons": 162,
-        "electronegativity": 1.22
+        "electronegativity": 1.22,
+        "mass": 88.905925
     },
     {
         "group": 4,
@@ -747,7 +786,7 @@
         "boilingPoint": 4406,
         "block": "d",
         "density": 6.52,
-        "relativeAtomicMass": "91.224",
+        "relativeAtomicMass": 91.224,
         "stateAtTwentyC": "Solid",
         "keyIsotopes": "90Zr, 92Zr, 94Zr",
         "electronConfiguration": "[Kr] 4d25s2",
@@ -757,7 +796,8 @@
         "firstIonEnergy": 6.6339,
         "atomicRadius": 155,
         "valenceElectrons": 148,
-        "electronegativity": 1.33
+        "electronegativity": 1.33,
+        "mass": 91.224
     },
     {
         "group": 5,
@@ -766,7 +806,7 @@
         "boilingPoint": 4741,
         "block": "d",
         "density": 8.57,
-        "relativeAtomicMass": "92.906",
+        "relativeAtomicMass": 92.906,
         "stateAtTwentyC": "Solid",
         "keyIsotopes": "93Nb",
         "electronConfiguration": "[Kr] 4d45s1",
@@ -776,7 +816,8 @@
         "firstIonEnergy": 6.75885,
         "atomicRadius": 145,
         "valenceElectrons": 137,
-        "electronegativity": 1.6
+        "electronegativity": 1.6,
+        "mass": 92.90619000000001
     },
     {
         "group": 6,
@@ -785,7 +826,7 @@
         "boilingPoint": 4639,
         "block": "d",
         "density": 10.2,
-        "relativeAtomicMass": "95.95",
+        "relativeAtomicMass": 95.95,
         "stateAtTwentyC": "Solid",
         "keyIsotopes": "95Mo, 96Mo, 98Mo",
         "electronConfiguration": "[Kr] 4d55s1",
@@ -795,7 +836,8 @@
         "firstIonEnergy": 7.09243,
         "atomicRadius": 145,
         "valenceElectrons": 145,
-        "electronegativity": 2.16
+        "electronegativity": 2.16,
+        "mass": 95.955
     },
     {
         "group": 7,
@@ -804,7 +846,7 @@
         "boilingPoint": 4262,
         "block": "d",
         "density": 11,
-        "relativeAtomicMass": "[98]",
+        "relativeAtomicMass": 98,
         "stateAtTwentyC": "Solid",
         "keyIsotopes": null,
         "electronConfiguration": "[Kr] 4d55s2",
@@ -814,7 +856,8 @@
         "firstIonEnergy": 7.28,
         "atomicRadius": 135,
         "valenceElectrons": 156,
-        "electronegativity": 1.9
+        "electronegativity": 1.9,
+        "mass": 98
     },
     {
         "group": 8,
@@ -823,7 +866,7 @@
         "boilingPoint": 4147,
         "block": "d",
         "density": 12.1,
-        "relativeAtomicMass": "101.07",
+        "relativeAtomicMass": 101.07,
         "stateAtTwentyC": "Solid",
         "keyIsotopes": "101Ru, 102Ru, 104Ru",
         "electronConfiguration": "[Kr] 4d75s1",
@@ -833,7 +876,8 @@
         "firstIonEnergy": 7.3605,
         "atomicRadius": 130,
         "valenceElectrons": 126,
-        "electronegativity": 2.2
+        "electronegativity": 2.2,
+        "mass": 101.07
     },
     {
         "group": 9,
@@ -842,7 +886,7 @@
         "boilingPoint": 3695,
         "block": "d",
         "density": 12.4,
-        "relativeAtomicMass": "102.906",
+        "relativeAtomicMass": 102.906,
         "stateAtTwentyC": "Solid",
         "keyIsotopes": "103Rh",
         "electronConfiguration": "[Kr] 4d85s1",
@@ -852,7 +896,8 @@
         "firstIonEnergy": 7.4589,
         "atomicRadius": 135,
         "valenceElectrons": 135,
-        "electronegativity": 2.28
+        "electronegativity": 2.28,
+        "mass": 102.90575000000001
     },
     {
         "group": 10,
@@ -861,7 +906,7 @@
         "boilingPoint": 2963,
         "block": "d",
         "density": 12,
-        "relativeAtomicMass": "106.42",
+        "relativeAtomicMass": 106.42,
         "stateAtTwentyC": "Solid",
         "keyIsotopes": "106Pd",
         "electronConfiguration": "[Kr] 4d10",
@@ -871,7 +916,8 @@
         "firstIonEnergy": 8.3369,
         "atomicRadius": 140,
         "valenceElectrons": 131,
-        "electronegativity": 2.2
+        "electronegativity": 2.2,
+        "mass": 106.42
     },
     {
         "group": 11,
@@ -880,7 +926,7 @@
         "boilingPoint": 2162,
         "block": "d",
         "density": 10.5,
-        "relativeAtomicMass": "107.868",
+        "relativeAtomicMass": 107.868,
         "stateAtTwentyC": "Solid",
         "keyIsotopes": "107Ag",
         "electronConfiguration": "[Kr] 4d105s1",
@@ -890,7 +936,8 @@
         "firstIonEnergy": 7.5762,
         "atomicRadius": 160,
         "valenceElectrons": 153,
-        "electronegativity": 1.93
+        "electronegativity": 1.93,
+        "mass": 107.8681
     },
     {
         "group": 12,
@@ -899,7 +946,7 @@
         "boilingPoint": 767,
         "block": "d",
         "density": 8.69,
-        "relativeAtomicMass": "112.414",
+        "relativeAtomicMass": 112.414,
         "stateAtTwentyC": "Solid",
         "keyIsotopes": "114Cd",
         "electronConfiguration": "[Kr] 4d105s2",
@@ -909,7 +956,8 @@
         "firstIonEnergy": 8.9938,
         "atomicRadius": 155,
         "valenceElectrons": 148,
-        "electronegativity": 1.69
+        "electronegativity": 1.69,
+        "mass": 112.4125
     },
     {
         "group": 13,
@@ -918,7 +966,7 @@
         "boilingPoint": 2027,
         "block": "p",
         "density": 7.31,
-        "relativeAtomicMass": "114.818",
+        "relativeAtomicMass": 114.818,
         "stateAtTwentyC": "Solid",
         "keyIsotopes": "115In",
         "electronConfiguration": "[Kr] 4d105s25p1",
@@ -928,7 +976,8 @@
         "firstIonEnergy": 5.78636,
         "atomicRadius": 155,
         "valenceElectrons": 144,
-        "electronegativity": 1.78
+        "electronegativity": 1.78,
+        "mass": 114.818
     },
     {
         "group": 14,
@@ -937,7 +986,7 @@
         "boilingPoint": 2586,
         "block": "p",
         "density": 7.287,
-        "relativeAtomicMass": "118.710",
+        "relativeAtomicMass": 118.71,
         "stateAtTwentyC": "Solid",
         "keyIsotopes": "120Sn",
         "electronConfiguration": "[Kr] 4d105s25p2",
@@ -947,7 +996,8 @@
         "firstIonEnergy": 7.3439,
         "atomicRadius": 145,
         "valenceElectrons": 141,
-        "electronegativity": 1.96
+        "electronegativity": 1.96,
+        "mass": 118.71
     },
     {
         "group": 15,
@@ -956,7 +1006,7 @@
         "boilingPoint": 1587,
         "block": "p",
         "density": 6.68,
-        "relativeAtomicMass": "121.760",
+        "relativeAtomicMass": 121.76,
         "stateAtTwentyC": "Solid",
         "keyIsotopes": "121Sb",
         "electronConfiguration": "[Kr] 4d105s25p3",
@@ -966,7 +1016,8 @@
         "firstIonEnergy": 8.6084,
         "atomicRadius": 145,
         "valenceElectrons": 138,
-        "electronegativity": 2.05
+        "electronegativity": 2.05,
+        "mass": 121.76
     },
     {
         "group": 16,
@@ -975,7 +1026,7 @@
         "boilingPoint": 988,
         "block": "p",
         "density": 6.232,
-        "relativeAtomicMass": "127.60",
+        "relativeAtomicMass": 127.6,
         "stateAtTwentyC": "Solid",
         "keyIsotopes": "130Te",
         "electronConfiguration": "[Kr] 4d105s25p4",
@@ -985,7 +1036,8 @@
         "firstIonEnergy": 9.0096,
         "atomicRadius": 140,
         "valenceElectrons": 135,
-        "electronegativity": 2.1
+        "electronegativity": 2.1,
+        "mass": 127.6
     },
     {
         "group": 17,
@@ -994,7 +1046,7 @@
         "boilingPoint": 184.4,
         "block": "p",
         "density": 4.933,
-        "relativeAtomicMass": "126.904",
+        "relativeAtomicMass": 126.904,
         "stateAtTwentyC": "Solid",
         "keyIsotopes": "127I",
         "electronConfiguration": "[Kr] 4d105s25p5",
@@ -1004,7 +1056,8 @@
         "firstIonEnergy": 10.45126,
         "atomicRadius": 140,
         "valenceElectrons": 133,
-        "electronegativity": 2.66
+        "electronegativity": 2.66,
+        "mass": 126.904235
     },
     {
         "group": 18,
@@ -1013,7 +1066,7 @@
         "boilingPoint": -108.099,
         "block": "p",
         "density": 0.005366,
-        "relativeAtomicMass": "131.293",
+        "relativeAtomicMass": 131.293,
         "stateAtTwentyC": "Gas",
         "keyIsotopes": "132Xe",
         "electronConfiguration": "[Kr] 4d105s25p6",
@@ -1023,7 +1076,8 @@
         "firstIonEnergy": 12.1298,
         "atomicRadius": 108,
         "valenceElectrons": 130,
-        "electronegativity": 2.6
+        "electronegativity": 2.6,
+        "mass": 131.293
     },
     {
         "group": 1,
@@ -1032,7 +1086,7 @@
         "boilingPoint": 671,
         "block": "s",
         "density": 1.873,
-        "relativeAtomicMass": "132.905",
+        "relativeAtomicMass": 132.905,
         "stateAtTwentyC": "Solid",
         "keyIsotopes": "133Cs",
         "electronConfiguration": "[Xe] 6s1",
@@ -1042,7 +1096,8 @@
         "firstIonEnergy": 3.8939,
         "atomicRadius": 260,
         "valenceElectrons": 225,
-        "electronegativity": 0.79
+        "electronegativity": 0.79,
+        "mass": 132.90522595
     },
     {
         "group": 2,
@@ -1051,7 +1106,7 @@
         "boilingPoint": 1845,
         "block": "s",
         "density": 3.62,
-        "relativeAtomicMass": "137.327",
+        "relativeAtomicMass": 137.327,
         "stateAtTwentyC": "Solid",
         "keyIsotopes": "138Ba",
         "electronConfiguration": "[Xe] 6s2",
@@ -1061,7 +1116,8 @@
         "firstIonEnergy": 5.2117,
         "atomicRadius": 215,
         "valenceElectrons": 198,
-        "electronegativity": 0.89
+        "electronegativity": 0.89,
+        "mass": 137.327
     },
     {
         "group": "Lanthanides",
@@ -1070,7 +1126,7 @@
         "boilingPoint": 3464,
         "block": "d",
         "density": 6.15,
-        "relativeAtomicMass": "138.905",
+        "relativeAtomicMass": 138.905,
         "stateAtTwentyC": "Solid",
         "keyIsotopes": "139La",
         "electronConfiguration": "[Xe] 5d16s2",
@@ -1080,7 +1136,8 @@
         "firstIonEnergy": 5.5769,
         "atomicRadius": 195,
         "valenceElectrons": 169,
-        "electronegativity": 1.1
+        "electronegativity": 1.1,
+        "mass": 138.905235
     },
     {
         "group": "Lanthanides",
@@ -1089,7 +1146,7 @@
         "boilingPoint": 3443,
         "block": "f",
         "density": 6.77,
-        "relativeAtomicMass": "140.116",
+        "relativeAtomicMass": 140.116,
         "stateAtTwentyC": "Solid",
         "keyIsotopes": "140Ce",
         "electronConfiguration": "[Xe] 4f15d16s2",
@@ -1098,8 +1155,9 @@
         "name": "Cerium",
         "firstIonEnergy": 5.5387,
         "atomicRadius": 185,
-        "valenceElectrons": 2,
-        "electronegativity": 1.12
+        "valenceElectrons": null,
+        "electronegativity": 1.12,
+        "mass": 140.116
     },
     {
         "group": "Lanthanides",
@@ -1108,7 +1166,7 @@
         "boilingPoint": 3520,
         "block": "f",
         "density": 6.77,
-        "relativeAtomicMass": "140.908",
+        "relativeAtomicMass": 140.908,
         "stateAtTwentyC": "Solid",
         "keyIsotopes": "141Pr",
         "electronConfiguration": "[Xe] 4f36s2",
@@ -1118,7 +1176,8 @@
         "firstIonEnergy": 5.473,
         "atomicRadius": 185,
         "valenceElectrons": null,
-        "electronegativity": 1.13
+        "electronegativity": 1.13,
+        "mass": 140.907825
     },
     {
         "group": "Lanthanides",
@@ -1127,7 +1186,7 @@
         "boilingPoint": 3074,
         "block": "f",
         "density": 7.01,
-        "relativeAtomicMass": "144.242",
+        "relativeAtomicMass": 144.242,
         "stateAtTwentyC": "Solid",
         "keyIsotopes": "142Nd",
         "electronConfiguration": "[Xe] 4f46s2",
@@ -1137,7 +1196,8 @@
         "firstIonEnergy": 5.525,
         "atomicRadius": 185,
         "valenceElectrons": null,
-        "electronegativity": 1.14
+        "electronegativity": 1.14,
+        "mass": 144.242
     },
     {
         "group": "Lanthanides",
@@ -1146,7 +1206,7 @@
         "boilingPoint": 3000,
         "block": "f",
         "density": 7.26,
-        "relativeAtomicMass": "[145]",
+        "relativeAtomicMass": 145,
         "stateAtTwentyC": "Solid",
         "keyIsotopes": "145Pm, 147Pm",
         "electronConfiguration": "[Xe] 4f56s2",
@@ -1156,7 +1216,8 @@
         "firstIonEnergy": 5.582,
         "atomicRadius": 185,
         "valenceElectrons": null,
-        "electronegativity": 1.13
+        "electronegativity": 1.13,
+        "mass": 145
     },
     {
         "group": "Lanthanides",
@@ -1165,7 +1226,7 @@
         "boilingPoint": 1794,
         "block": "f",
         "density": 7.52,
-        "relativeAtomicMass": "150.36",
+        "relativeAtomicMass": 150.36,
         "stateAtTwentyC": "Solid",
         "keyIsotopes": "152Sm",
         "electronConfiguration": "[Xe] 4f66s2",
@@ -1175,7 +1236,8 @@
         "firstIonEnergy": 5.6436,
         "atomicRadius": 185,
         "valenceElectrons": null,
-        "electronegativity": 1.17
+        "electronegativity": 1.17,
+        "mass": 150.36
     },
     {
         "group": "Lanthanides",
@@ -1184,7 +1246,7 @@
         "boilingPoint": 1529,
         "block": "f",
         "density": 5.24,
-        "relativeAtomicMass": "151.964",
+        "relativeAtomicMass": 151.964,
         "stateAtTwentyC": "Solid",
         "keyIsotopes": "153Eu",
         "electronConfiguration": "[Xe] 4f76s2",
@@ -1194,7 +1256,8 @@
         "firstIonEnergy": 5.6704,
         "atomicRadius": 185,
         "valenceElectrons": null,
-        "electronegativity": 1.2
+        "electronegativity": 1.2,
+        "mass": 151.964
     },
     {
         "group": "Lanthanides",
@@ -1203,7 +1266,7 @@
         "boilingPoint": 3273,
         "block": "f",
         "density": 7.9,
-        "relativeAtomicMass": "157.25",
+        "relativeAtomicMass": 157.25,
         "stateAtTwentyC": "Solid",
         "keyIsotopes": "158Gd",
         "electronConfiguration": "[Xe] 4f75d16s2",
@@ -1213,7 +1276,8 @@
         "firstIonEnergy": 6.1501,
         "atomicRadius": 180,
         "valenceElectrons": null,
-        "electronegativity": 1.2
+        "electronegativity": 1.2,
+        "mass": 157.25
     },
     {
         "group": "Lanthanides",
@@ -1222,7 +1286,7 @@
         "boilingPoint": 3230,
         "block": "f",
         "density": 8.23,
-        "relativeAtomicMass": "158.925",
+        "relativeAtomicMass": 158.925,
         "stateAtTwentyC": "Solid",
         "keyIsotopes": "159Tb",
         "electronConfiguration": "[Xe] 4f96s2",
@@ -1232,7 +1296,8 @@
         "firstIonEnergy": 5.8638,
         "atomicRadius": 175,
         "valenceElectrons": null,
-        "electronegativity": 1.22
+        "electronegativity": 1.22,
+        "mass": 158.92517500000002
     },
     {
         "group": "Lanthanides",
@@ -1241,7 +1306,7 @@
         "boilingPoint": 2567,
         "block": "f",
         "density": 8.55,
-        "relativeAtomicMass": "162.500",
+        "relativeAtomicMass": 162.5,
         "stateAtTwentyC": "Solid",
         "keyIsotopes": "164Dy",
         "electronConfiguration": "[Xe] 4f106s2",
@@ -1251,7 +1316,8 @@
         "firstIonEnergy": 5.9389,
         "atomicRadius": 175,
         "valenceElectrons": null,
-        "electronegativity": 1.23
+        "electronegativity": 1.23,
+        "mass": 162.5
     },
     {
         "group": "Lanthanides",
@@ -1260,7 +1326,7 @@
         "boilingPoint": 2700,
         "block": "f",
         "density": 8.8,
-        "relativeAtomicMass": "164.930",
+        "relativeAtomicMass": 164.93,
         "stateAtTwentyC": "Solid",
         "keyIsotopes": "165Ho",
         "electronConfiguration": "[Xe] 4f116s2",
@@ -1270,7 +1336,8 @@
         "firstIonEnergy": 6.0215,
         "atomicRadius": 175,
         "valenceElectrons": null,
-        "electronegativity": 1.24
+        "electronegativity": 1.24,
+        "mass": 164.93016
     },
     {
         "group": "Lanthanides",
@@ -1279,7 +1346,7 @@
         "boilingPoint": 2868,
         "block": "f",
         "density": 9.07,
-        "relativeAtomicMass": "167.259",
+        "relativeAtomicMass": 167.259,
         "stateAtTwentyC": "Solid",
         "keyIsotopes": "166Er",
         "electronConfiguration": "[Xe] 4f126s2",
@@ -1289,7 +1356,8 @@
         "firstIonEnergy": 6.1077,
         "atomicRadius": 175,
         "valenceElectrons": null,
-        "electronegativity": 1.24
+        "electronegativity": 1.24,
+        "mass": 167.259
     },
     {
         "group": "Lanthanides",
@@ -1298,7 +1366,7 @@
         "boilingPoint": 1950,
         "block": "f",
         "density": 9.32,
-        "relativeAtomicMass": "168.934",
+        "relativeAtomicMass": 168.934,
         "stateAtTwentyC": "Solid",
         "keyIsotopes": "169Tm",
         "electronConfiguration": "[Xe] 4f136s2",
@@ -1308,7 +1376,8 @@
         "firstIonEnergy": 6.18431,
         "atomicRadius": 175,
         "valenceElectrons": null,
-        "electronegativity": 1.25
+        "electronegativity": 1.25,
+        "mass": 168.934105
     },
     {
         "group": "Lanthanides",
@@ -1317,7 +1386,7 @@
         "boilingPoint": 1196,
         "block": "f",
         "density": 6.9,
-        "relativeAtomicMass": "173.045",
+        "relativeAtomicMass": 173.045,
         "stateAtTwentyC": "Solid",
         "keyIsotopes": "172Yb, 173Yb, 174Yb",
         "electronConfiguration": "[Xe] 4f146s2",
@@ -1327,7 +1396,8 @@
         "firstIonEnergy": 6.25416,
         "atomicRadius": 175,
         "valenceElectrons": null,
-        "electronegativity": 1.1
+        "electronegativity": 1.1,
+        "mass": 173.0495
     },
     {
         "group": "Lanthanides",
@@ -1336,7 +1406,7 @@
         "boilingPoint": 3402,
         "block": "f",
         "density": 9.84,
-        "relativeAtomicMass": "174.967",
+        "relativeAtomicMass": 174.967,
         "stateAtTwentyC": "Solid",
         "keyIsotopes": "175Lu",
         "electronConfiguration": "[Xe] 4f145d16s2",
@@ -1346,7 +1416,8 @@
         "firstIonEnergy": 5.4259,
         "atomicRadius": 175,
         "valenceElectrons": 160,
-        "electronegativity": 1.27
+        "electronegativity": 1.27,
+        "mass": 174.9669
     },
     {
         "group": 4,
@@ -1355,7 +1426,7 @@
         "boilingPoint": 4600,
         "block": "d",
         "density": 13.3,
-        "relativeAtomicMass": "178.49",
+        "relativeAtomicMass": 178.49,
         "stateAtTwentyC": "Solid",
         "keyIsotopes": "177Hf, 178Hf, 180Hf",
         "electronConfiguration": "[Xe] 4f145d26s2",
@@ -1365,7 +1436,8 @@
         "firstIonEnergy": 6.82507,
         "atomicRadius": 155,
         "valenceElectrons": 150,
-        "electronegativity": 1.3
+        "electronegativity": 1.3,
+        "mass": 178.49
     },
     {
         "group": 5,
@@ -1374,7 +1446,7 @@
         "boilingPoint": 5455,
         "block": "d",
         "density": 16.4,
-        "relativeAtomicMass": "180.948",
+        "relativeAtomicMass": 180.948,
         "stateAtTwentyC": "Solid",
         "keyIsotopes": "180Ta, 181Ta",
         "electronConfiguration": "[Xe] 4f145d36s2",
@@ -1384,7 +1456,8 @@
         "firstIonEnergy": 7.5496,
         "atomicRadius": 145,
         "valenceElectrons": 138,
-        "electronegativity": 1.5
+        "electronegativity": 1.5,
+        "mass": 180.94794000000002
     },
     {
         "group": 6,
@@ -1393,7 +1466,7 @@
         "boilingPoint": 5555,
         "block": "d",
         "density": 19.3,
-        "relativeAtomicMass": "183.84",
+        "relativeAtomicMass": 183.84,
         "stateAtTwentyC": "Solid",
         "keyIsotopes": "182W, 184W, 186W",
         "electronConfiguration": "[Xe] 4f145d46s2",
@@ -1403,7 +1476,8 @@
         "firstIonEnergy": 7.864,
         "atomicRadius": 135,
         "valenceElectrons": 146,
-        "electronegativity": 2.36
+        "electronegativity": 2.36,
+        "mass": 183.84
     },
     {
         "group": 7,
@@ -1412,7 +1486,7 @@
         "boilingPoint": 5590,
         "block": "d",
         "density": 20.8,
-        "relativeAtomicMass": "186.207",
+        "relativeAtomicMass": 186.207,
         "stateAtTwentyC": "Solid",
         "keyIsotopes": "187Re",
         "electronConfiguration": "[Xe] 4f145d56s2",
@@ -1422,7 +1496,8 @@
         "firstIonEnergy": 7.8335,
         "atomicRadius": 135,
         "valenceElectrons": 159,
-        "electronegativity": 1.9
+        "electronegativity": 1.9,
+        "mass": 186.207
     },
     {
         "group": 8,
@@ -1431,7 +1506,7 @@
         "boilingPoint": 5008,
         "block": "d",
         "density": 22.5872,
-        "relativeAtomicMass": "190.23",
+        "relativeAtomicMass": 190.23,
         "stateAtTwentyC": "Solid",
         "keyIsotopes": "192Os",
         "electronConfiguration": "[Xe] 4f145d66s2",
@@ -1441,7 +1516,8 @@
         "firstIonEnergy": 8.4382,
         "atomicRadius": 130,
         "valenceElectrons": 128,
-        "electronegativity": 2.2
+        "electronegativity": 2.2,
+        "mass": 190.23
     },
     {
         "group": 9,
@@ -1450,7 +1526,7 @@
         "boilingPoint": 4428,
         "block": "d",
         "density": 22.5622,
-        "relativeAtomicMass": "192.217",
+        "relativeAtomicMass": 192.217,
         "stateAtTwentyC": "Solid",
         "keyIsotopes": "193Ir",
         "electronConfiguration": "[Xe] 4f145d76s2",
@@ -1460,7 +1536,8 @@
         "firstIonEnergy": 8.967,
         "atomicRadius": 135,
         "valenceElectrons": 137,
-        "electronegativity": 2.2
+        "electronegativity": 2.2,
+        "mass": 192.217
     },
     {
         "group": 10,
@@ -1469,7 +1546,7 @@
         "boilingPoint": 3825,
         "block": "d",
         "density": 21.5,
-        "relativeAtomicMass": "195.084",
+        "relativeAtomicMass": 195.084,
         "stateAtTwentyC": "Solid",
         "keyIsotopes": "195Pt",
         "electronConfiguration": "[Xe] 4f145d96s1",
@@ -1479,7 +1556,8 @@
         "firstIonEnergy": 8.9587,
         "atomicRadius": 135,
         "valenceElectrons": 128,
-        "electronegativity": 2.28
+        "electronegativity": 2.28,
+        "mass": 195.084
     },
     {
         "group": 11,
@@ -1488,7 +1566,7 @@
         "boilingPoint": 2836,
         "block": "d",
         "density": 19.3,
-        "relativeAtomicMass": "196.967",
+        "relativeAtomicMass": 196.967,
         "stateAtTwentyC": "Solid",
         "keyIsotopes": "197Au",
         "electronConfiguration": "[Xe] 4f145d106s1",
@@ -1498,7 +1576,8 @@
         "firstIonEnergy": 9.2255,
         "atomicRadius": 135,
         "valenceElectrons": 144,
-        "electronegativity": 2.54
+        "electronegativity": 2.54,
+        "mass": 196.96678450000002
     },
     {
         "group": 12,
@@ -1507,7 +1586,7 @@
         "boilingPoint": 356.619,
         "block": "d",
         "density": 13.5336,
-        "relativeAtomicMass": "200.592",
+        "relativeAtomicMass": 200.592,
         "stateAtTwentyC": "Liquid",
         "keyIsotopes": "202Hg",
         "electronConfiguration": "[Xe] 4f145d106s2",
@@ -1517,7 +1596,8 @@
         "firstIonEnergy": 10.4375,
         "atomicRadius": 150,
         "valenceElectrons": 149,
-        "electronegativity": 2
+        "electronegativity": 2,
+        "mass": 200.591
     },
     {
         "group": 13,
@@ -1526,7 +1606,7 @@
         "boilingPoint": 1473,
         "block": "p",
         "density": 11.8,
-        "relativeAtomicMass": "204.38",
+        "relativeAtomicMass": 204.38,
         "stateAtTwentyC": "Solid",
         "keyIsotopes": "205Tl",
         "electronConfiguration": "[Xe] 4f145d106s26p1",
@@ -1536,7 +1616,8 @@
         "firstIonEnergy": 6.1082,
         "atomicRadius": 190,
         "valenceElectrons": 148,
-        "electronegativity": 1.62
+        "electronegativity": 1.62,
+        "mass": 204.38164999999998
     },
     {
         "group": 14,
@@ -1545,7 +1626,7 @@
         "boilingPoint": 1749,
         "block": "p",
         "density": 11.3,
-        "relativeAtomicMass": "207.2",
+        "relativeAtomicMass": 207.2,
         "stateAtTwentyC": "Solid",
         "keyIsotopes": "208Pb",
         "electronConfiguration": "[Xe] 4f145d106s26p2",
@@ -1555,7 +1636,8 @@
         "firstIonEnergy": 7.41666,
         "atomicRadius": 180,
         "valenceElectrons": 147,
-        "electronegativity": 2.33
+        "electronegativity": 2.33,
+        "mass": 207.2
     },
     {
         "group": 15,
@@ -1564,7 +1646,7 @@
         "boilingPoint": 1564,
         "block": "p",
         "density": 9.79,
-        "relativeAtomicMass": "208.980",
+        "relativeAtomicMass": 208.98,
         "stateAtTwentyC": "Solid",
         "keyIsotopes": "209Bi",
         "electronConfiguration": "[Xe] 4f145d106s26p3",
@@ -1574,7 +1656,8 @@
         "firstIonEnergy": 7.2856,
         "atomicRadius": 160,
         "valenceElectrons": 146,
-        "electronegativity": 2.02
+        "electronegativity": 2.02,
+        "mass": 208.9802
     },
     {
         "group": 16,
@@ -1583,7 +1666,7 @@
         "boilingPoint": 962,
         "block": "p",
         "density": 9.2,
-        "relativeAtomicMass": "[209]",
+        "relativeAtomicMass": 209,
         "stateAtTwentyC": "Solid",
         "keyIsotopes": "209Po, 210Po",
         "electronConfiguration": "[Xe] 4f145d106s26p4",
@@ -1593,7 +1676,8 @@
         "firstIonEnergy": 8.417,
         "atomicRadius": 190,
         "valenceElectrons": null,
-        "electronegativity": 2
+        "electronegativity": 2,
+        "mass": 209
     },
     {
         "group": 17,
@@ -1602,7 +1686,7 @@
         "boilingPoint": 350,
         "block": "p",
         "density": null,
-        "relativeAtomicMass": "[210]",
+        "relativeAtomicMass": 210,
         "stateAtTwentyC": "Solid",
         "keyIsotopes": "210At, 211At",
         "electronConfiguration": "[Xe] 4f145d106s26p5",
@@ -1612,7 +1696,8 @@
         "firstIonEnergy": null,
         "atomicRadius": null,
         "valenceElectrons": null,
-        "electronegativity": 2.2
+        "electronegativity": 2.2,
+        "mass": 210
     },
     {
         "group": 18,
@@ -1621,7 +1706,7 @@
         "boilingPoint": -61.7,
         "block": "p",
         "density": 0.009074,
-        "relativeAtomicMass": "[222]",
+        "relativeAtomicMass": 222,
         "stateAtTwentyC": "Gas",
         "keyIsotopes": "211Rn, 220Rn, 222Rn",
         "electronConfiguration": "[Xe] 4f145d106s26p6",
@@ -1631,7 +1716,8 @@
         "firstIonEnergy": 10.7485,
         "atomicRadius": 120,
         "valenceElectrons": 145,
-        "electronegativity": null
+        "electronegativity": null,
+        "mass": 222
     },
     {
         "group": 1,
@@ -1640,7 +1726,7 @@
         "boilingPoint": 650,
         "block": "s",
         "density": null,
-        "relativeAtomicMass": "[223]",
+        "relativeAtomicMass": 223,
         "stateAtTwentyC": "Solid",
         "keyIsotopes": "223Fr",
         "electronConfiguration": "[Rn] 7s1",
@@ -1650,7 +1736,8 @@
         "firstIonEnergy": 4.0727,
         "atomicRadius": null,
         "valenceElectrons": null,
-        "electronegativity": 0.7
+        "electronegativity": 0.7,
+        "mass": 223
     },
     {
         "group": 2,
@@ -1659,7 +1746,7 @@
         "boilingPoint": 1500,
         "block": "s",
         "density": 5,
-        "relativeAtomicMass": "[226]",
+        "relativeAtomicMass": 226,
         "stateAtTwentyC": "Solid",
         "keyIsotopes": "226Ra",
         "electronConfiguration": "[Rn] 7s2",
@@ -1669,7 +1756,8 @@
         "firstIonEnergy": 5.2784,
         "atomicRadius": 215,
         "valenceElectrons": null,
-        "electronegativity": 0.89
+        "electronegativity": 0.89,
+        "mass": 226
     },
     {
         "group": "Actinides",
@@ -1678,7 +1766,7 @@
         "boilingPoint": 3200,
         "block": "d",
         "density": 10,
-        "relativeAtomicMass": "[227]",
+        "relativeAtomicMass": 227,
         "stateAtTwentyC": "Solid",
         "keyIsotopes": "227Ac",
         "electronConfiguration": "[Rn] 6d17s2",
@@ -1688,7 +1776,8 @@
         "firstIonEnergy": 5.17,
         "atomicRadius": 195,
         "valenceElectrons": null,
-        "electronegativity": 1.1
+        "electronegativity": 1.1,
+        "mass": 227
     },
     {
         "group": "Actinides",
@@ -1697,7 +1786,7 @@
         "boilingPoint": 4785,
         "block": "f",
         "density": 11.7,
-        "relativeAtomicMass": "232.038",
+        "relativeAtomicMass": 232.038,
         "stateAtTwentyC": "Solid",
         "keyIsotopes": "230Th, 232Th",
         "electronConfiguration": "[Rn] 6d27s2",
@@ -1707,7 +1796,8 @@
         "firstIonEnergy": 6.3067,
         "atomicRadius": 180,
         "valenceElectrons": null,
-        "electronegativity": 1.3
+        "electronegativity": 1.3,
+        "mass": 232.03803
     },
     {
         "group": "Actinides",
@@ -1716,7 +1806,7 @@
         "boilingPoint": 4000,
         "block": "f",
         "density": 15.4,
-        "relativeAtomicMass": "231.036",
+        "relativeAtomicMass": 231.036,
         "stateAtTwentyC": "Solid",
         "keyIsotopes": "231Pa",
         "electronConfiguration": "[Rn] 5f26d17s2",
@@ -1726,7 +1816,8 @@
         "firstIonEnergy": 5.89,
         "atomicRadius": 180,
         "valenceElectrons": null,
-        "electronegativity": 1.5
+        "electronegativity": 1.5,
+        "mass": 231.03593999999998
     },
     {
         "group": "Actinides",
@@ -1735,7 +1826,7 @@
         "boilingPoint": 4131,
         "block": "f",
         "density": 19.1,
-        "relativeAtomicMass": "238.029",
+        "relativeAtomicMass": 238.029,
         "stateAtTwentyC": "Solid",
         "keyIsotopes": "234U, 235U, 238U",
         "electronConfiguration": "[Rn] 5f36d17s2",
@@ -1745,7 +1836,8 @@
         "firstIonEnergy": 6.19405,
         "atomicRadius": 175,
         "valenceElectrons": null,
-        "electronegativity": 1.38
+        "electronegativity": 1.38,
+        "mass": 238.028955
     },
     {
         "group": "Actinides",
@@ -1754,7 +1846,7 @@
         "boilingPoint": 3902,
         "block": "f",
         "density": 20.2,
-        "relativeAtomicMass": "[237]",
+        "relativeAtomicMass": 237,
         "stateAtTwentyC": "Solid",
         "keyIsotopes": "237Np",
         "electronConfiguration": "[Rn] 5f46d17s2",
@@ -1764,7 +1856,8 @@
         "firstIonEnergy": 6.2657,
         "atomicRadius": 175,
         "valenceElectrons": null,
-        "electronegativity": 1.36
+        "electronegativity": 1.36,
+        "mass": 237
     },
     {
         "group": "Actinides",
@@ -1773,7 +1866,7 @@
         "boilingPoint": 3228,
         "block": "f",
         "density": 19.7,
-        "relativeAtomicMass": "[244]",
+        "relativeAtomicMass": 244,
         "stateAtTwentyC": "Solid",
         "keyIsotopes": "238Pu, 239Pu, 240Pu",
         "electronConfiguration": "[Rn] 5f67s2",
@@ -1783,7 +1876,8 @@
         "firstIonEnergy": 6.0262,
         "atomicRadius": 175,
         "valenceElectrons": null,
-        "electronegativity": 1.28
+        "electronegativity": 1.28,
+        "mass": 244
     },
     {
         "group": "Actinides",
@@ -1792,7 +1886,7 @@
         "boilingPoint": 2011,
         "block": "f",
         "density": 12,
-        "relativeAtomicMass": "[243]",
+        "relativeAtomicMass": 243,
         "stateAtTwentyC": "Solid",
         "keyIsotopes": "241Am, 243Am",
         "electronConfiguration": "[Rn] 5f77s2",
@@ -1802,7 +1896,8 @@
         "firstIonEnergy": 5.9738,
         "atomicRadius": 175,
         "valenceElectrons": null,
-        "electronegativity": 1.3
+        "electronegativity": 1.3,
+        "mass": 243
     },
     {
         "group": "Actinides",
@@ -1811,7 +1906,7 @@
         "boilingPoint": null,
         "block": "f",
         "density": 13.51,
-        "relativeAtomicMass": "[247]",
+        "relativeAtomicMass": 247,
         "stateAtTwentyC": "Solid",
         "keyIsotopes": "243Cm, 248Cm",
         "electronConfiguration": "[Rn] 5f76d17s2",
@@ -1821,7 +1916,8 @@
         "firstIonEnergy": 5.9915,
         "atomicRadius": null,
         "valenceElectrons": null,
-        "electronegativity": 1.3
+        "electronegativity": 1.3,
+        "mass": 247
     },
     {
         "group": "Actinides",
@@ -1830,7 +1926,7 @@
         "boilingPoint": null,
         "block": "f",
         "density": 14.78,
-        "relativeAtomicMass": "[247]",
+        "relativeAtomicMass": 247,
         "stateAtTwentyC": "Solid",
         "keyIsotopes": "247Bk, 249Bk",
         "electronConfiguration": "[Rn] 5f97s2",
@@ -1840,7 +1936,8 @@
         "firstIonEnergy": 6.1979,
         "atomicRadius": null,
         "valenceElectrons": null,
-        "electronegativity": 1.3
+        "electronegativity": 1.3,
+        "mass": 247
     },
     {
         "group": "Actinides",
@@ -1849,7 +1946,7 @@
         "boilingPoint": null,
         "block": "f",
         "density": 15.1,
-        "relativeAtomicMass": "[251]",
+        "relativeAtomicMass": 251,
         "stateAtTwentyC": "Solid",
         "keyIsotopes": "249Cf, 252Cf",
         "electronConfiguration": "[Rn] 5f107s2",
@@ -1859,7 +1956,8 @@
         "firstIonEnergy": 6.2817,
         "atomicRadius": null,
         "valenceElectrons": null,
-        "electronegativity": 1.3
+        "electronegativity": 1.3,
+        "mass": 251
     },
     {
         "group": "Actinides",
@@ -1868,7 +1966,7 @@
         "boilingPoint": null,
         "block": "f",
         "density": null,
-        "relativeAtomicMass": "[252]",
+        "relativeAtomicMass": 252,
         "stateAtTwentyC": "Solid",
         "keyIsotopes": "252Es",
         "electronConfiguration": "[Rn] 5f117s2",
@@ -1878,7 +1976,8 @@
         "firstIonEnergy": 6.42,
         "atomicRadius": null,
         "valenceElectrons": null,
-        "electronegativity": 1.3
+        "electronegativity": 1.3,
+        "mass": 252
     },
     {
         "group": "Actinides",
@@ -1887,7 +1986,7 @@
         "boilingPoint": null,
         "block": "f",
         "density": null,
-        "relativeAtomicMass": "[257]",
+        "relativeAtomicMass": 257,
         "stateAtTwentyC": "Solid",
         "keyIsotopes": "257Fm",
         "electronConfiguration": "[Rn] 5f127s2",
@@ -1897,7 +1996,8 @@
         "firstIonEnergy": 6.5,
         "atomicRadius": null,
         "valenceElectrons": null,
-        "electronegativity": 1.3
+        "electronegativity": 1.3,
+        "mass": 257
     },
     {
         "group": "Actinides",
@@ -1906,7 +2006,7 @@
         "boilingPoint": null,
         "block": "f",
         "density": null,
-        "relativeAtomicMass": "[258]",
+        "relativeAtomicMass": 258,
         "stateAtTwentyC": "Solid",
         "keyIsotopes": "258Md, 260Md",
         "electronConfiguration": "[Rn] 5f137s2",
@@ -1916,7 +2016,8 @@
         "firstIonEnergy": 6.58,
         "atomicRadius": null,
         "valenceElectrons": null,
-        "electronegativity": 1.3
+        "electronegativity": 1.3,
+        "mass": 258
     },
     {
         "group": "Actinides",
@@ -1925,7 +2026,7 @@
         "boilingPoint": null,
         "block": "f",
         "density": null,
-        "relativeAtomicMass": "[259]",
+        "relativeAtomicMass": 259,
         "stateAtTwentyC": "Solid",
         "keyIsotopes": "259No",
         "electronConfiguration": "[Rn] 5f147s2",
@@ -1935,7 +2036,8 @@
         "firstIonEnergy": 6.65,
         "atomicRadius": null,
         "valenceElectrons": null,
-        "electronegativity": 1.3
+        "electronegativity": 1.3,
+        "mass": 259
     },
     {
         "group": "Actinides",
@@ -1944,7 +2046,7 @@
         "boilingPoint": null,
         "block": "f",
         "density": null,
-        "relativeAtomicMass": "[262]",
+        "relativeAtomicMass": 262,
         "stateAtTwentyC": "Solid",
         "keyIsotopes": "262Lr",
         "electronConfiguration": "[Rn] 5f147s27p1",
@@ -1954,6 +2056,7 @@
         "firstIonEnergy": 4.9,
         "atomicRadius": null,
         "valenceElectrons": null,
-        "electronegativity": null
+        "electronegativity": null,
+        "mass": 262
     }
 ]
