@@ -73,25 +73,28 @@
         function load() {
             console.log("Fetching elements!")
             httpGetAsync("https://emanzi-school.github.io/chem/3/9/data/elements.json", (response) => {
-                const elements = JSON.parse(response)
-                const content = document.getElementById("content")
-                var element
-                for (var i=0; i<elements.length; i++) {
-                    element = elements[i]
-                    content.innerHTML += `
-                        <tr>
-                            <td>${valueOr(element.symbol)}</td>
-                            <td>${valueOr(element.name)}</td>
-                            <td>Atomic Number</td>
-                            <td>${valueOr(element.mass)}</td>
-                            <td>Melting Point (<sup>o</sup>C)</td>
-                            <td>Boiling Point (<sup>o</sup>C)</td>
-                            <td>Electronegativity Value</td>
-                            <td>${valueOr(element.atomicRadius)}</td>
-                            <td>First Ionization Energy</td>
-                        </tr>
-                    `
-                }
+                httpGetAsync("https://emanzi-school.github.io/chem/3/9/data/elements_2.json", (r2) => {
+                    const elements = JSON.parse(response)
+                    const e2 = JSON.parse(r2)
+                    const content = document.getElementById("content")
+                    var element
+                    for (var i=0; i<elements.length; i++) {
+                        element = elements[i]
+                        content.innerHTML += `
+                            <tr>
+                                <td>${valueOr(element.symbol)}</td>
+                                <td>${valueOr(element.name)}</td>
+                                <td>${valueOr(e2["atomicNumber"])}</td>
+                                <td>${valueOr(element.mass)}</td>
+                                <td>${valueOr(e2["Melting point"])}°C</td>
+                                <td>${valueOr(e2["Boiling point"])}°C</td>
+                                <td>Electronegativity Value</td>
+                                <td>${valueOr(element.atomicRadius)}</td>
+                                <td>${valueOr(element.firstIonEnergy)}</td>
+                            </tr>
+                        `
+                    }
+                })
             })
         }
 
