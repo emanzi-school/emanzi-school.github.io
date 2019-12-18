@@ -1,0 +1,474 @@
+[
+    {
+        "atomicNumber": 1,
+        "electronegativity": 2.20
+    },
+    {
+        "atomicNumber": 2,
+        "electronegativity": null
+    },
+    {
+        "atomicNumber": 3,
+        "electronegativity": 0.98
+    },
+    {
+        "atomicNumber": 4,
+        "electronegativity": 1.57
+    },
+    {
+        "atomicNumber": 5,
+        "electronegativity": 2.04
+    },
+    {
+        "atomicNumber": 6,
+        "electronegativity": 2.55
+    },
+    {
+        "atomicNumber": 7,
+        "electronegativity": 3.04
+    },
+    {
+        "atomicNumber": 8,
+        "electronegativity": 3.44
+    },
+    {
+        "atomicNumber": 9,
+        "electronegativity": 3.98
+    },
+    {
+        "atomicNumber": 10,
+        "electronegativity": null
+    },
+    {
+        "atomicNumber": 11,
+        "electronegativity": 0.93
+    },
+    {
+        "atomicNumber": 12,
+        "electronegativity": 1.31
+    },
+    {
+        "atomicNumber": 13,
+        "electronegativity": 1.61
+    },
+    {
+        "atomicNumber": 14,
+        "electronegativity": 1.90
+    },
+    {
+        "atomicNumber": 15,
+        "electronegativity": 2.19
+    },
+    {
+        "atomicNumber": 16,
+        "electronegativity": 2.58
+    },
+    {
+        "atomicNumber": 17,
+        "electronegativity": 3.16
+    },
+    {
+        "atomicNumber": 18,
+        "electronegativity": null
+    },
+    {
+        "atomicNumber": 19,
+        "electronegativity": 0.82
+    },
+    {
+        "atomicNumber": 20,
+        "electronegativity": 1.00
+    },
+    {
+        "atomicNumber": 21,
+        "electronegativity": 1.36
+    },
+    {
+        "atomicNumber": 22,
+        "electronegativity": 1.54
+    },
+    {
+        "atomicNumber": 23,
+        "electronegativity": 1.63
+    },
+    {
+        "atomicNumber": 24,
+        "electronegativity": 1.66
+    },
+    {
+        "atomicNumber": 25,
+        "electronegativity": 1.55
+    },
+    {
+        "atomicNumber": 26,
+        "electronegativity": 1.83
+    },
+    {
+        "atomicNumber": 27,
+        "electronegativity": 1.88
+    },
+    {
+        "atomicNumber": 28,
+        "electronegativity": 1.91
+    },
+    {
+        "atomicNumber": 29,
+        "electronegativity": 1.90
+    },
+    {
+        "atomicNumber": 30,
+        "electronegativity": 1.65
+    },
+    {
+        "atomicNumber": 31,
+        "electronegativity": 1.81
+    },
+    {
+        "atomicNumber": 32,
+        "electronegativity": 2.01
+    },
+    {
+        "atomicNumber": 33,
+        "electronegativity": 2.18
+    },
+    {
+        "atomicNumber": 34,
+        "electronegativity": 2.55
+    },
+    {
+        "atomicNumber": 35,
+        "electronegativity": 2.96
+    },
+    {
+        "atomicNumber": 36,
+        "electronegativity": 3.00
+    },
+    {
+        "atomicNumber": 37,
+        "electronegativity": 0.82
+    },
+    {
+        "atomicNumber": 38,
+        "electronegativity": 0.95
+    },
+    {
+        "atomicNumber": 39,
+        "electronegativity": 1.22
+    },
+    {
+        "atomicNumber": 40,
+        "electronegativity": 1.33
+    },
+    {
+        "atomicNumber": 41,
+        "electronegativity": 1.6
+    },
+    {
+        "atomicNumber": 42,
+        "electronegativity": 2.16
+    },
+    {
+        "atomicNumber": 43,
+        "electronegativity": 1.9
+    },
+    {
+        "atomicNumber": 44,
+        "electronegativity": 2.2
+    },
+    {
+        "atomicNumber": 45,
+        "electronegativity": 2.28
+    },
+    {
+        "atomicNumber": 46,
+        "electronegativity": 2.20
+    },
+    {
+        "atomicNumber": 47,
+        "electronegativity": 1.93
+    },
+    {
+        "atomicNumber": 48,
+        "electronegativity": 1.69
+    },
+    {
+        "atomicNumber": 49,
+        "electronegativity": 1.78
+    },
+    {
+        "atomicNumber": 50,
+        "electronegativity": 1.96
+    },
+    {
+        "atomicNumber": 51,
+        "electronegativity": 2.05
+    },
+    {
+        "atomicNumber": 52,
+        "electronegativity": 2.1
+    },
+    {
+        "atomicNumber": 53,
+        "electronegativity": 2.66
+    },
+    {
+        "atomicNumber": 54,
+        "electronegativity": 2.6
+    },
+    {
+        "atomicNumber": 55,
+        "electronegativity": 0.79
+    },
+    {
+        "atomicNumber": 56,
+        "electronegativity": 0.89
+    },
+    {
+        "atomicNumber": 57,
+        "electronegativity": 1.10
+    },
+    {
+        "atomicNumber": 58,
+        "electronegativity": 1.12
+    },
+    {
+        "atomicNumber": 59,
+        "electronegativity": 1.13
+    },
+    {
+        "atomicNumber": 60,
+        "electronegativity": 1.14
+    },
+    {
+        "atomicNumber": 61,
+        "electronegativity": 1.13
+    },
+    {
+        "atomicNumber": 62,
+        "electronegativity": 1.17
+    },
+    {
+        "atomicNumber": 63,
+        "electronegativity": 1.2
+    },
+    {
+        "atomicNumber": 64,
+        "electronegativity": 1.2
+    },
+    {
+        "atomicNumber": 65,
+        "electronegativity": 1.22
+    },
+    {
+        "atomicNumber": 66,
+        "electronegativity": 1.23
+    },
+    {
+        "atomicNumber": 67,
+        "electronegativity": 1.24
+    },
+    {
+        "atomicNumber": 68,
+        "electronegativity": 1.24
+    },
+    {
+        "atomicNumber": 69,
+        "electronegativity": 1.25
+    },
+    {
+        "atomicNumber": 70,
+        "electronegativity": 1.1
+    },
+    {
+        "atomicNumber": 71,
+        "electronegativity": 1.27
+    },
+    {
+        "atomicNumber": 72,
+        "electronegativity": 1.3
+    },
+    {
+        "atomicNumber": 73,
+        "electronegativity": 1.5
+    },
+    {
+        "atomicNumber": 74,
+        "electronegativity": 2.36
+    },
+    {
+        "atomicNumber": 75,
+        "electronegativity": 1.9
+    },
+    {
+        "atomicNumber": 76,
+        "electronegativity": 2.2
+    },
+    {
+        "atomicNumber": 77,
+        "electronegativity": 2.2
+    },
+    {
+        "atomicNumber": 78,
+        "electronegativity": 2.28
+    },
+    {
+        "atomicNumber": 79,
+        "electronegativity": 2.54
+    },
+    {
+        "atomicNumber": 80,
+        "electronegativity": 2.00
+    },
+    {
+        "atomicNumber": 81,
+        "electronegativity": 1.62
+    },
+    {
+        "atomicNumber": 82,
+        "electronegativity": 2.33
+    },
+    {
+        "atomicNumber": 83,
+        "electronegativity": 2.02
+    },
+    {
+        "atomicNumber": 84,
+        "electronegativity": 2.0
+    },
+    {
+        "atomicNumber": 85,
+        "electronegativity": 2.2
+    },
+    {
+        "atomicNumber": 86,
+        "electronegativity": null
+    },
+    {
+        "atomicNumber": 87,
+        "electronegativity": 0.7
+    },
+    {
+        "atomicNumber": 88,
+        "electronegativity": 0.89
+    },
+    {
+        "atomicNumber": 89,
+        "electronegativity": 1.1
+    },
+    {
+        "atomicNumber": 90,
+        "electronegativity": 1.3
+    },
+    {
+        "atomicNumber": 91,
+        "electronegativity": 1.5
+    },
+    {
+        "atomicNumber": 92,
+        "electronegativity": 1.38
+    },
+    {
+        "atomicNumber": 93,
+        "electronegativity": 1.36
+    },
+    {
+        "atomicNumber": 94,
+        "electronegativity": 1.28
+    },
+    {
+        "atomicNumber": 95,
+        "electronegativity": 1.3
+    },
+    {
+        "atomicNumber": 96,
+        "electronegativity": 1.3
+    },
+    {
+        "atomicNumber": 97,
+        "electronegativity": 1.3
+    },
+    {
+        "atomicNumber": 98,
+        "electronegativity": 1.3
+    },
+    {
+        "atomicNumber": 99,
+        "electronegativity": 1.3
+    },
+    {
+        "atomicNumber": 100,
+        "electronegativity": 1.3
+    },
+    {
+        "atomicNumber": 101,
+        "electronegativity": 1.3
+    },
+    {
+        "atomicNumber": 102,
+        "electronegativity": 1.3
+    },
+    {
+        "atomicNumber": 103,
+        "electronegativity": null
+    },
+    {
+        "atomicNumber": 104,
+        "electronegativity": null
+    },
+    {
+        "atomicNumber": 105,
+        "electronegativity": null
+    },
+    {
+        "atomicNumber": 106,
+        "electronegativity": null
+    },
+    {
+        "atomicNumber": 107,
+        "electronegativity": null
+    },
+    {
+        "atomicNumber": 108,
+        "electronegativity": null
+    },
+    {
+        "atomicNumber": 109,
+        "electronegativity": null
+    },
+    {
+        "atomicNumber": 110,
+        "electronegativity": null
+    },
+    {
+        "atomicNumber": 111,
+        "electronegativity": null
+    },
+    {
+        "atomicNumber": 112,
+        "electronegativity": null
+    },
+    {
+        "atomicNumber": 113,
+        "electronegativity": null
+    },
+    {
+        "atomicNumber": 114,
+        "electronegativity": null
+    },
+    {
+        "atomicNumber": 115,
+        "electronegativity": null
+    },
+    {
+        "atomicNumber": 116,
+        "electronegativity": null
+    },
+    {
+        "atomicNumber": 117,
+        "electronegativity": null
+    },
+    {
+        "atomicNumber": 118,
+        "electronegativity": null
+    }
+]
