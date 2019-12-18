@@ -15,7 +15,8 @@
         "name": "Hydrogen",
         "mass": 1.007,
         "atomicRadius": 25,
-        "firstIronEnergy": 13.59844
+        "firstIronEnergy": 13.59844,
+        "electronegativity": 2.2
     },
     {
         "group": 18,
@@ -33,7 +34,8 @@
         "name": "Helium",
         "mass": 4.002602,
         "atomicRadius": 31,
-        "firstIronEnergy": 24.58741
+        "firstIronEnergy": 24.58741,
+        "electronegativity": null
     },
     {
         "group": 1,
@@ -51,7 +53,8 @@
         "name": "Lithium",
         "mass": 6.941,
         "atomicRadius": 145,
-        "firstIronEnergy": 5.39172
+        "firstIronEnergy": 5.39172,
+        "electronegativity": 0.98
     },
     {
         "group": 2,
@@ -69,7 +72,8 @@
         "name": "Beryllium",
         "mass": 9.012182,
         "atomicRadius": 105,
-        "firstIronEnergy": 9.3227
+        "firstIronEnergy": 9.3227,
+        "electronegativity": 1.57
     },
     {
         "group": 13,
@@ -87,7 +91,8 @@
         "name": "Boron",
         "mass": 10.811,
         "atomicRadius": 85,
-        "firstIronEnergy": 8.29803
+        "firstIronEnergy": 8.29803,
+        "electronegativity": 2.04
     },
     {
         "group": 14,
@@ -105,7 +110,8 @@
         "name": "Carbon",
         "mass": 12.0107,
         "atomicRadius": 70,
-        "firstIronEnergy": 11.2603
+        "firstIronEnergy": 11.2603,
+        "electronegativity": 2.55
     },
     {
         "group": 15,
@@ -123,7 +129,8 @@
         "name": "Nitrogen",
         "mass": 14.0067,
         "atomicRadius": 65,
-        "firstIronEnergy": 14.53414
+        "firstIronEnergy": 14.53414,
+        "electronegativity": 3.04
     },
     {
         "group": 16,
@@ -141,7 +148,8 @@
         "name": "Oxygen",
         "mass": 15.9994,
         "atomicRadius": 60,
-        "firstIronEnergy": 13.61806
+        "firstIronEnergy": 13.61806,
+        "electronegativity": 3.44
     },
     {
         "group": 17,
@@ -159,7 +167,8 @@
         "name": "Fluorine",
         "mass": 18.9984032,
         "atomicRadius": 50,
-        "firstIronEnergy": 17.42282
+        "firstIronEnergy": 17.42282,
+        "electronegativity": 3.98
     },
     {
         "group": 18,
@@ -177,7 +186,8 @@
         "name": "Neon",
         "mass": 20.1797,
         "atomicRadius": 38,
-        "firstIronEnergy": 21.5646
+        "firstIronEnergy": 21.5646,
+        "electronegativity": null
     },
     {
         "group": 1,
@@ -195,7 +205,8 @@
         "name": "Sodium",
         "mass": 22.98976928,
         "atomicRadius": 180,
-        "firstIronEnergy": 5.13908
+        "firstIronEnergy": 5.13908,
+        "electronegativity": 0.93
     },
     {
         "group": 2,
@@ -213,7 +224,8 @@
         "name": "Magnesium",
         "mass": 24.305,
         "atomicRadius": 150,
-        "firstIronEnergy": 7.64624
+        "firstIronEnergy": 7.64624,
+        "electronegativity": 1.31
     },
     {
         "group": 13,
@@ -231,7 +243,8 @@
         "name": "Aluminium",
         "mass": 26.9815386,
         "atomicRadius": 125,
-        "firstIronEnergy": 5.98577
+        "firstIronEnergy": 5.98577,
+        "electronegativity": 1.61
     },
     {
         "group": 14,
@@ -249,7 +262,8 @@
         "name": "Silicon",
         "mass": 28.0855,
         "atomicRadius": 110,
-        "firstIronEnergy": 8.15169
+        "firstIronEnergy": 8.15169,
+        "electronegativity": 1.9
     },
     {
         "group": 15,
@@ -267,7 +281,8 @@
         "name": "Phosphorus",
         "mass": 30.973762,
         "atomicRadius": 100,
-        "firstIronEnergy": 10.48669
+        "firstIronEnergy": 10.48669,
+        "electronegativity": 2.19
     },
     {
         "group": 16,
@@ -285,7 +300,8 @@
         "name": "Sulfur",
         "mass": 32.065,
         "atomicRadius": 100,
-        "firstIronEnergy": 10.36001
+        "firstIronEnergy": 10.36001,
+        "electronegativity": 2.58
     },
     {
         "group": 17,
@@ -303,7 +319,8 @@
         "name": "Chlorine",
         "mass": 35.453,
         "atomicRadius": 100,
-        "firstIronEnergy": 12.96764
+        "firstIronEnergy": 12.96764,
+        "electronegativity": 3.16
     },
     {
         "group": 18,
@@ -321,7 +338,8 @@
         "name": "Argon",
         "mass": 39.948,
         "atomicRadius": 71,
-        "firstIronEnergy": 15.75962
+        "firstIronEnergy": 15.75962,
+        "electronegativity": null
     },
     {
         "group": 1,
@@ -339,7 +357,8 @@
         "name": "Potassium",
         "mass": 39.0983,
         "atomicRadius": 220,
-        "firstIronEnergy": 4.34066
+        "firstIronEnergy": 4.34066,
+        "electronegativity": 0.82
     },
     {
         "group": 2,
@@ -357,7 +376,8 @@
         "name": "Calcium",
         "mass": 40.078,
         "atomicRadius": 180,
-        "firstIronEnergy": 6.11316
+        "firstIronEnergy": 6.11316,
+        "electronegativity": 1
     },
     {
         "group": 3,
@@ -375,7 +395,8 @@
         "name": "Scandium",
         "mass": 44.955912,
         "atomicRadius": 160,
-        "firstIronEnergy": 6.5615
+        "firstIronEnergy": 6.5615,
+        "electronegativity": 1.36
     },
     {
         "group": 4,
@@ -393,7 +414,8 @@
         "name": "Titanium",
         "mass": 47.867,
         "atomicRadius": 140,
-        "firstIronEnergy": 6.8281
+        "firstIronEnergy": 6.8281,
+        "electronegativity": 1.54
     },
     {
         "group": 5,
@@ -411,7 +433,8 @@
         "name": "Vanadium",
         "mass": 50.9415,
         "atomicRadius": 135,
-        "firstIronEnergy": 6.7462
+        "firstIronEnergy": 6.7462,
+        "electronegativity": 1.63
     },
     {
         "group": 6,
@@ -429,7 +452,8 @@
         "name": "Chromium",
         "mass": 51.9961,
         "atomicRadius": 140,
-        "firstIronEnergy": 6.7665
+        "firstIronEnergy": 6.7665,
+        "electronegativity": 1.66
     },
     {
         "group": 7,
@@ -447,7 +471,8 @@
         "name": "Manganese",
         "mass": 54.938045,
         "atomicRadius": 140,
-        "firstIronEnergy": 7.43402
+        "firstIronEnergy": 7.43402,
+        "electronegativity": 1.55
     },
     {
         "group": 8,
@@ -465,7 +490,8 @@
         "name": "Iron",
         "mass": 55.845,
         "atomicRadius": 140,
-        "firstIronEnergy": 7.9024
+        "firstIronEnergy": 7.9024,
+        "electronegativity": 1.83
     },
     {
         "group": 9,
@@ -483,7 +509,8 @@
         "name": "Cobalt",
         "mass": 58.933195,
         "atomicRadius": 135,
-        "firstIronEnergy": 7.6398
+        "firstIronEnergy": 7.6398,
+        "electronegativity": 1.88
     },
     {
         "group": 10,
@@ -501,7 +528,8 @@
         "name": "Nickel",
         "mass": 58.6934,
         "atomicRadius": 135,
-        "firstIronEnergy": 7.881
+        "firstIronEnergy": 7.881,
+        "electronegativity": 1.91
     },
     {
         "group": 11,
@@ -519,7 +547,8 @@
         "name": "Copper",
         "mass": 63.546,
         "atomicRadius": 135,
-        "firstIronEnergy": 7.72638
+        "firstIronEnergy": 7.72638,
+        "electronegativity": 1.9
     },
     {
         "group": 12,
@@ -537,7 +566,8 @@
         "name": "Zinc",
         "mass": 65.38,
         "atomicRadius": 135,
-        "firstIronEnergy": 9.3942
+        "firstIronEnergy": 9.3942,
+        "electronegativity": 1.65
     },
     {
         "group": 13,
@@ -555,7 +585,8 @@
         "name": "Gallium",
         "mass": 69.723,
         "atomicRadius": 130,
-        "firstIronEnergy": 5.9993
+        "firstIronEnergy": 5.9993,
+        "electronegativity": 1.81
     },
     {
         "group": 14,
@@ -573,7 +604,8 @@
         "name": "Germanium",
         "mass": 72.63,
         "atomicRadius": 125,
-        "firstIronEnergy": 7.8994
+        "firstIronEnergy": 7.8994,
+        "electronegativity": 2.01
     },
     {
         "group": 15,
@@ -591,7 +623,8 @@
         "name": "Arsenic",
         "mass": 74.9216,
         "atomicRadius": 115,
-        "firstIronEnergy": 9.7886
+        "firstIronEnergy": 9.7886,
+        "electronegativity": 2.18
     },
     {
         "group": 16,
@@ -609,7 +642,8 @@
         "name": "Selenium",
         "mass": 78.96,
         "atomicRadius": 115,
-        "firstIronEnergy": 9.75238
+        "firstIronEnergy": 9.75238,
+        "electronegativity": 2.55
     },
     {
         "group": 17,
@@ -627,7 +661,8 @@
         "name": "Bromine",
         "mass": 79.904,
         "atomicRadius": 115,
-        "firstIronEnergy": 11.81381
+        "firstIronEnergy": 11.81381,
+        "electronegativity": 2.96
     },
     {
         "group": 18,
@@ -645,7 +680,8 @@
         "name": "Krypton",
         "mass": 83.798,
         "atomicRadius": 88,
-        "firstIronEnergy": 13.99961
+        "firstIronEnergy": 13.99961,
+        "electronegativity": 3
     },
     {
         "group": 1,
@@ -663,7 +699,8 @@
         "name": "Rubidium",
         "mass": 85.4678,
         "atomicRadius": 235,
-        "firstIronEnergy": 4.17713
+        "firstIronEnergy": 4.17713,
+        "electronegativity": 0.82
     },
     {
         "group": 2,
@@ -681,7 +718,8 @@
         "name": "Strontium",
         "mass": 87.62,
         "atomicRadius": 200,
-        "firstIronEnergy": 5.6949
+        "firstIronEnergy": 5.6949,
+        "electronegativity": 0.95
     },
     {
         "group": 3,
@@ -699,7 +737,8 @@
         "name": "Yttrium",
         "mass": 88.90585,
         "atomicRadius": 180,
-        "firstIronEnergy": 6.2171
+        "firstIronEnergy": 6.2171,
+        "electronegativity": 1.22
     },
     {
         "group": 4,
@@ -717,7 +756,8 @@
         "name": "Zirconium",
         "mass": 91.224,
         "atomicRadius": 155,
-        "firstIronEnergy": 6.6339
+        "firstIronEnergy": 6.6339,
+        "electronegativity": 1.33
     },
     {
         "group": 5,
@@ -735,7 +775,8 @@
         "name": "Niobium",
         "mass": 92.90638,
         "atomicRadius": 145,
-        "firstIronEnergy": 6.75885
+        "firstIronEnergy": 6.75885,
+        "electronegativity": 1.6
     },
     {
         "group": 6,
@@ -753,7 +794,8 @@
         "name": "Molybdenum",
         "mass": 95.96,
         "atomicRadius": 145,
-        "firstIronEnergy": 7.09243
+        "firstIronEnergy": 7.09243,
+        "electronegativity": 2.16
     },
     {
         "group": 7,
@@ -771,7 +813,8 @@
         "name": "Technetium",
         "mass": null,
         "atomicRadius": 135,
-        "firstIronEnergy": 7.28
+        "firstIronEnergy": 7.28,
+        "electronegativity": 1.9
     },
     {
         "group": 8,
@@ -789,7 +832,8 @@
         "name": "Ruthenium",
         "mass": 101.07,
         "atomicRadius": 130,
-        "firstIronEnergy": 7.3605
+        "firstIronEnergy": 7.3605,
+        "electronegativity": 2.2
     },
     {
         "group": 9,
@@ -807,7 +851,8 @@
         "name": "Rhodium",
         "mass": 102.9055,
         "atomicRadius": 135,
-        "firstIronEnergy": 7.4589
+        "firstIronEnergy": 7.4589,
+        "electronegativity": 2.28
     },
     {
         "group": 10,
@@ -825,7 +870,8 @@
         "name": "Palladium",
         "mass": 106.42,
         "atomicRadius": 140,
-        "firstIronEnergy": 8.3369
+        "firstIronEnergy": 8.3369,
+        "electronegativity": 2.2
     },
     {
         "group": 11,
@@ -843,7 +889,8 @@
         "name": "Silver",
         "mass": 107.8682,
         "atomicRadius": 160,
-        "firstIronEnergy": 7.5762
+        "firstIronEnergy": 7.5762,
+        "electronegativity": 1.93
     },
     {
         "group": 12,
@@ -861,7 +908,8 @@
         "name": "Cadmium",
         "mass": 112.411,
         "atomicRadius": 155,
-        "firstIronEnergy": 8.9938
+        "firstIronEnergy": 8.9938,
+        "electronegativity": 1.69
     },
     {
         "group": 13,
@@ -879,7 +927,8 @@
         "name": "Indium",
         "mass": 114.818,
         "atomicRadius": 155,
-        "firstIronEnergy": 5.78636
+        "firstIronEnergy": 5.78636,
+        "electronegativity": 1.78
     },
     {
         "group": 14,
@@ -897,7 +946,8 @@
         "name": "Tin",
         "mass": 118.71,
         "atomicRadius": 145,
-        "firstIronEnergy": 7.3439
+        "firstIronEnergy": 7.3439,
+        "electronegativity": 1.96
     },
     {
         "group": 15,
@@ -915,7 +965,8 @@
         "name": "Antimony",
         "mass": 121.76,
         "atomicRadius": 145,
-        "firstIronEnergy": 8.6084
+        "firstIronEnergy": 8.6084,
+        "electronegativity": 2.05
     },
     {
         "group": 16,
@@ -933,7 +984,8 @@
         "name": "Tellurium",
         "mass": 127.6,
         "atomicRadius": 140,
-        "firstIronEnergy": 9.0096
+        "firstIronEnergy": 9.0096,
+        "electronegativity": 2.1
     },
     {
         "group": 17,
@@ -951,7 +1003,8 @@
         "name": "Iodine",
         "mass": 126.90447,
         "atomicRadius": 140,
-        "firstIronEnergy": 10.45126
+        "firstIronEnergy": 10.45126,
+        "electronegativity": 2.66
     },
     {
         "group": 18,
@@ -969,7 +1022,8 @@
         "name": "Xenon",
         "mass": 131.293,
         "atomicRadius": 108,
-        "firstIronEnergy": 12.1298
+        "firstIronEnergy": 12.1298,
+        "electronegativity": 2.6
     },
     {
         "group": 1,
@@ -987,7 +1041,8 @@
         "name": "Caesium",
         "mass": 132.9054519,
         "atomicRadius": 260,
-        "firstIronEnergy": 3.8939
+        "firstIronEnergy": 3.8939,
+        "electronegativity": 0.79
     },
     {
         "group": 2,
@@ -1005,7 +1060,8 @@
         "name": "Barium",
         "mass": 137.327,
         "atomicRadius": 215,
-        "firstIronEnergy": 5.2117
+        "firstIronEnergy": 5.2117,
+        "electronegativity": 0.89
     },
     {
         "group": "Lanthanides",
@@ -1023,7 +1079,8 @@
         "name": "Lanthanum",
         "mass": 138.90547,
         "atomicRadius": 195,
-        "firstIronEnergy": 5.5769
+        "firstIronEnergy": 5.5769,
+        "electronegativity": 1.1
     },
     {
         "group": "Lanthanides",
@@ -1041,7 +1098,8 @@
         "name": "Cerium",
         "mass": 140.116,
         "atomicRadius": 185,
-        "firstIronEnergy": 5.5387
+        "firstIronEnergy": 5.5387,
+        "electronegativity": 1.12
     },
     {
         "group": "Lanthanides",
@@ -1059,7 +1117,8 @@
         "name": "Praseodymium",
         "mass": 140.90765,
         "atomicRadius": 185,
-        "firstIronEnergy": 5.473
+        "firstIronEnergy": 5.473,
+        "electronegativity": 1.13
     },
     {
         "group": "Lanthanides",
@@ -1077,7 +1136,8 @@
         "name": "Neodymium",
         "mass": 144.242,
         "atomicRadius": 185,
-        "firstIronEnergy": 5.525
+        "firstIronEnergy": 5.525,
+        "electronegativity": 1.14
     },
     {
         "group": "Lanthanides",
@@ -1095,7 +1155,8 @@
         "name": "Promethium",
         "mass": null,
         "atomicRadius": 185,
-        "firstIronEnergy": 5.582
+        "firstIronEnergy": 5.582,
+        "electronegativity": 1.13
     },
     {
         "group": "Lanthanides",
@@ -1113,7 +1174,8 @@
         "name": "Samarium",
         "mass": 150.36,
         "atomicRadius": 185,
-        "firstIronEnergy": 5.6436
+        "firstIronEnergy": 5.6436,
+        "electronegativity": 1.17
     },
     {
         "group": "Lanthanides",
@@ -1131,7 +1193,8 @@
         "name": "Europium",
         "mass": 151.964,
         "atomicRadius": 185,
-        "firstIronEnergy": 5.6704
+        "firstIronEnergy": 5.6704,
+        "electronegativity": 1.2
     },
     {
         "group": "Lanthanides",
@@ -1149,7 +1212,8 @@
         "name": "Gadolinium",
         "mass": 157.25,
         "atomicRadius": 180,
-        "firstIronEnergy": 6.1501
+        "firstIronEnergy": 6.1501,
+        "electronegativity": 1.2
     },
     {
         "group": "Lanthanides",
@@ -1167,7 +1231,8 @@
         "name": "Terbium",
         "mass": 158.92535,
         "atomicRadius": 175,
-        "firstIronEnergy": 5.8638
+        "firstIronEnergy": 5.8638,
+        "electronegativity": 1.22
     },
     {
         "group": "Lanthanides",
@@ -1185,7 +1250,8 @@
         "name": "Dysprosium",
         "mass": 162.5,
         "atomicRadius": 175,
-        "firstIronEnergy": 5.9389
+        "firstIronEnergy": 5.9389,
+        "electronegativity": 1.23
     },
     {
         "group": "Lanthanides",
@@ -1203,7 +1269,8 @@
         "name": "Holmium",
         "mass": 164.93032,
         "atomicRadius": 175,
-        "firstIronEnergy": 6.0215
+        "firstIronEnergy": 6.0215,
+        "electronegativity": 1.24
     },
     {
         "group": "Lanthanides",
@@ -1221,7 +1288,8 @@
         "name": "Erbium",
         "mass": 167.259,
         "atomicRadius": 175,
-        "firstIronEnergy": 6.1077
+        "firstIronEnergy": 6.1077,
+        "electronegativity": 1.24
     },
     {
         "group": "Lanthanides",
@@ -1239,7 +1307,8 @@
         "name": "Thulium",
         "mass": 168.93421,
         "atomicRadius": 175,
-        "firstIronEnergy": 6.18431
+        "firstIronEnergy": 6.18431,
+        "electronegativity": 1.25
     },
     {
         "group": "Lanthanides",
@@ -1257,7 +1326,8 @@
         "name": "Ytterbium",
         "mass": 173.054,
         "atomicRadius": 175,
-        "firstIronEnergy": 6.25416
+        "firstIronEnergy": 6.25416,
+        "electronegativity": 1.1
     },
     {
         "group": "Lanthanides",
@@ -1275,7 +1345,8 @@
         "name": "Lutetium",
         "mass": 174.9668,
         "atomicRadius": 175,
-        "firstIronEnergy": 5.4259
+        "firstIronEnergy": 5.4259,
+        "electronegativity": 1.27
     },
     {
         "group": 4,
@@ -1293,7 +1364,8 @@
         "name": "Hafnium",
         "mass": 178.49,
         "atomicRadius": 155,
-        "firstIronEnergy": 6.82507
+        "firstIronEnergy": 6.82507,
+        "electronegativity": 1.3
     },
     {
         "group": 5,
@@ -1311,7 +1383,8 @@
         "name": "Tantalum",
         "mass": 180.94788,
         "atomicRadius": 145,
-        "firstIronEnergy": 7.5496
+        "firstIronEnergy": 7.5496,
+        "electronegativity": 1.5
     },
     {
         "group": 6,
@@ -1329,7 +1402,8 @@
         "name": "Tungsten",
         "mass": 183.84,
         "atomicRadius": 135,
-        "firstIronEnergy": 7.864
+        "firstIronEnergy": 7.864,
+        "electronegativity": 2.36
     },
     {
         "group": 7,
@@ -1347,7 +1421,8 @@
         "name": "Rhenium",
         "mass": 186.207,
         "atomicRadius": 135,
-        "firstIronEnergy": 7.8335
+        "firstIronEnergy": 7.8335,
+        "electronegativity": 1.9
     },
     {
         "group": 8,
@@ -1365,7 +1440,8 @@
         "name": "Osmium",
         "mass": 190.23,
         "atomicRadius": 130,
-        "firstIronEnergy": 8.4382
+        "firstIronEnergy": 8.4382,
+        "electronegativity": 2.2
     },
     {
         "group": 9,
@@ -1383,7 +1459,8 @@
         "name": "Iridium",
         "mass": 192.217,
         "atomicRadius": 135,
-        "firstIronEnergy": 8.967
+        "firstIronEnergy": 8.967,
+        "electronegativity": 2.2
     },
     {
         "group": 10,
@@ -1401,7 +1478,8 @@
         "name": "Platinum",
         "mass": 195.084,
         "atomicRadius": 135,
-        "firstIronEnergy": 8.9587
+        "firstIronEnergy": 8.9587,
+        "electronegativity": 2.28
     },
     {
         "group": 11,
@@ -1419,7 +1497,8 @@
         "name": "Gold",
         "mass": 196.966569,
         "atomicRadius": 135,
-        "firstIronEnergy": 9.2255
+        "firstIronEnergy": 9.2255,
+        "electronegativity": 2.54
     },
     {
         "group": 12,
@@ -1437,7 +1516,8 @@
         "name": "Mercury",
         "mass": 200.59,
         "atomicRadius": 150,
-        "firstIronEnergy": 10.4375
+        "firstIronEnergy": 10.4375,
+        "electronegativity": 2
     },
     {
         "group": 13,
@@ -1455,7 +1535,8 @@
         "name": "Thallium",
         "mass": 204.3833,
         "atomicRadius": 190,
-        "firstIronEnergy": 6.1082
+        "firstIronEnergy": 6.1082,
+        "electronegativity": 1.62
     },
     {
         "group": 14,
@@ -1473,7 +1554,8 @@
         "name": "Lead",
         "mass": 207.2,
         "atomicRadius": 180,
-        "firstIronEnergy": 7.41666
+        "firstIronEnergy": 7.41666,
+        "electronegativity": 2.33
     },
     {
         "group": 15,
@@ -1491,7 +1573,8 @@
         "name": "Bismuth",
         "mass": 208.9804,
         "atomicRadius": 160,
-        "firstIronEnergy": 7.2856
+        "firstIronEnergy": 7.2856,
+        "electronegativity": 2.02
     },
     {
         "group": 16,
@@ -1509,7 +1592,8 @@
         "name": "Polonium",
         "mass": null,
         "atomicRadius": 190,
-        "firstIronEnergy": 8.417
+        "firstIronEnergy": 8.417,
+        "electronegativity": 2
     },
     {
         "group": 17,
@@ -1527,7 +1611,8 @@
         "name": "Astatine",
         "mass": null,
         "atomicRadius": null,
-        "firstIronEnergy": null
+        "firstIronEnergy": null,
+        "electronegativity": 2.2
     },
     {
         "group": 18,
@@ -1545,7 +1630,8 @@
         "name": "Radon",
         "mass": null,
         "atomicRadius": 120,
-        "firstIronEnergy": 10.7485
+        "firstIronEnergy": 10.7485,
+        "electronegativity": null
     },
     {
         "group": 1,
@@ -1563,7 +1649,8 @@
         "name": "Francium",
         "mass": null,
         "atomicRadius": null,
-        "firstIronEnergy": 4.0727
+        "firstIronEnergy": 4.0727,
+        "electronegativity": 0.7
     },
     {
         "group": 2,
@@ -1581,7 +1668,8 @@
         "name": "Radium",
         "mass": null,
         "atomicRadius": 215,
-        "firstIronEnergy": 5.2784
+        "firstIronEnergy": 5.2784,
+        "electronegativity": 0.89
     },
     {
         "group": "Actinides",
@@ -1599,7 +1687,8 @@
         "name": "Actinium",
         "mass": null,
         "atomicRadius": 195,
-        "firstIronEnergy": 5.17
+        "firstIronEnergy": 5.17,
+        "electronegativity": 1.1
     },
     {
         "group": "Actinides",
@@ -1617,7 +1706,8 @@
         "name": "Thorium",
         "mass": 232.03806,
         "atomicRadius": 180,
-        "firstIronEnergy": 6.3067
+        "firstIronEnergy": 6.3067,
+        "electronegativity": 1.3
     },
     {
         "group": "Actinides",
@@ -1635,7 +1725,8 @@
         "name": "Protactinium",
         "mass": 231.03588,
         "atomicRadius": 180,
-        "firstIronEnergy": 5.89
+        "firstIronEnergy": 5.89,
+        "electronegativity": 1.5
     },
     {
         "group": "Actinides",
@@ -1653,7 +1744,8 @@
         "name": "Uranium",
         "mass": 238.02891,
         "atomicRadius": 175,
-        "firstIronEnergy": 6.19405
+        "firstIronEnergy": 6.19405,
+        "electronegativity": 1.38
     },
     {
         "group": "Actinides",
@@ -1671,7 +1763,8 @@
         "name": "Neptunium",
         "mass": null,
         "atomicRadius": 175,
-        "firstIronEnergy": 6.2657
+        "firstIronEnergy": 6.2657,
+        "electronegativity": 1.36
     },
     {
         "group": "Actinides",
@@ -1689,7 +1782,8 @@
         "name": "Plutonium",
         "mass": null,
         "atomicRadius": 175,
-        "firstIronEnergy": 6.0262
+        "firstIronEnergy": 6.0262,
+        "electronegativity": 1.28
     },
     {
         "group": "Actinides",
@@ -1707,7 +1801,8 @@
         "name": "Americium",
         "mass": null,
         "atomicRadius": 175,
-        "firstIronEnergy": 5.9738
+        "firstIronEnergy": 5.9738,
+        "electronegativity": 1.3
     },
     {
         "group": "Actinides",
@@ -1725,7 +1820,8 @@
         "name": "Curium",
         "mass": null,
         "atomicRadius": null,
-        "firstIronEnergy": 5.9915
+        "firstIronEnergy": 5.9915,
+        "electronegativity": 1.3
     },
     {
         "group": "Actinides",
@@ -1743,7 +1839,8 @@
         "name": "Berkelium",
         "mass": null,
         "atomicRadius": null,
-        "firstIronEnergy": 6.1979
+        "firstIronEnergy": 6.1979,
+        "electronegativity": 1.3
     },
     {
         "group": "Actinides",
@@ -1761,7 +1858,8 @@
         "name": "Californium",
         "mass": null,
         "atomicRadius": null,
-        "firstIronEnergy": 6.2817
+        "firstIronEnergy": 6.2817,
+        "electronegativity": 1.3
     },
     {
         "group": "Actinides",
@@ -1779,7 +1877,8 @@
         "name": "Einsteinium",
         "mass": null,
         "atomicRadius": null,
-        "firstIronEnergy": 6.42
+        "firstIronEnergy": 6.42,
+        "electronegativity": 1.3
     },
     {
         "group": "Actinides",
@@ -1797,7 +1896,8 @@
         "name": "Fermium",
         "mass": null,
         "atomicRadius": null,
-        "firstIronEnergy": 6.5
+        "firstIronEnergy": 6.5,
+        "electronegativity": 1.3
     },
     {
         "group": "Actinides",
@@ -1815,7 +1915,8 @@
         "name": "Mendelevium",
         "mass": null,
         "atomicRadius": null,
-        "firstIronEnergy": 6.58
+        "firstIronEnergy": 6.58,
+        "electronegativity": 1.3
     },
     {
         "group": "Actinides",
@@ -1833,7 +1934,8 @@
         "name": "Nobelium",
         "mass": null,
         "atomicRadius": null,
-        "firstIronEnergy": 6.65
+        "firstIronEnergy": 6.65,
+        "electronegativity": 1.3
     },
     {
         "group": "Actinides",
@@ -1851,6 +1953,7 @@
         "name": "Lawrencium",
         "mass": null,
         "atomicRadius": null,
-        "firstIronEnergy": 4.9
+        "firstIronEnergy": 4.9,
+        "electronegativity": null
     }
 ]

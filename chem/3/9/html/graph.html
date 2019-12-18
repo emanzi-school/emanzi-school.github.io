@@ -65,8 +65,8 @@
                 var floor = {x:0,y:0}
                 if (!(elems[i].number == null || elems[i].number == undefined || elems[i].mass == null || elems[i].mass == undefined)) {
                     var p = {
-                        x: elems[i][xaxis],
-                        y: elems[i][yaxis]
+                        x: valueOr(elems[i][xaxis], 0),
+                        y: valueOr(elems[i][yaxis], 0)
                     }
 
                     if (p.x < floor.x) floor.x = p.x
