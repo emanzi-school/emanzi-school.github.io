@@ -1,0 +1,946 @@
+[
+    {
+        "name": "Hydrogen",
+        "symbol": "H",
+        "mass": "1.007",
+        "firstIonEnergy": "13.59844",
+        "atomicRadius": "25",
+        "valenceElectrons": "38"
+    },
+    {
+        "name": "Helium",
+        "symbol": "He",
+        "mass": "4.002602(2)",
+        "firstIonEnergy": "24.58741",
+        "atomicRadius": "31",
+        "valenceElectrons": "32"
+    },
+    {
+        "name": "Lithium",
+        "symbol": "Li",
+        "mass": "6.941(2)",
+        "firstIonEnergy": "5.39172",
+        "atomicRadius": "145",
+        "valenceElectrons": "134"
+    },
+    {
+        "name": "Beryllium",
+        "symbol": "Be",
+        "mass": "9.012182(3)",
+        "firstIonEnergy": "9.3227",
+        "atomicRadius": "105",
+        "valenceElectrons": "90"
+    },
+    {
+        "name": "Boron",
+        "symbol": "B",
+        "mass": "10.811(7)",
+        "firstIonEnergy": "8.29803",
+        "atomicRadius": "85",
+        "valenceElectrons": "82"
+    },
+    {
+        "name": "Carbon",
+        "symbol": "C",
+        "mass": "12.0107(8)",
+        "firstIonEnergy": "11.2603",
+        "atomicRadius": "70",
+        "valenceElectrons": "77"
+    },
+    {
+        "name": "Nitrogen",
+        "symbol": "N",
+        "mass": "14.0067(2)",
+        "firstIonEnergy": "14.53414",
+        "atomicRadius": "65",
+        "valenceElectrons": "75"
+    },
+    {
+        "name": "Oxygen",
+        "symbol": "O",
+        "mass": "15.9994(3)",
+        "firstIonEnergy": "13.61806",
+        "atomicRadius": "60",
+        "valenceElectrons": "73"
+    },
+    {
+        "name": "Fluorine",
+        "symbol": "F",
+        "mass": "18.9984032(5)",
+        "firstIonEnergy": "17.42282",
+        "atomicRadius": "50",
+        "valenceElectrons": "71"
+    },
+    {
+        "name": "Neon",
+        "symbol": "Ne",
+        "mass": "20.1797(6)",
+        "firstIonEnergy": "21.5646",
+        "atomicRadius": "38",
+        "valenceElectrons": "69"
+    },
+    {
+        "name": "Sodium",
+        "symbol": "Na",
+        "mass": "22.98976928(2)",
+        "firstIonEnergy": "5.13908",
+        "atomicRadius": "180",
+        "valenceElectrons": "154"
+    },
+    {
+        "name": "Magnesium",
+        "symbol": "Mg",
+        "mass": "24.3050(6)",
+        "firstIonEnergy": "7.64624",
+        "atomicRadius": "150",
+        "valenceElectrons": "130"
+    },
+    {
+        "name": "Aluminium",
+        "symbol": "Al",
+        "mass": "26.9815386(8)",
+        "firstIonEnergy": "5.98577",
+        "atomicRadius": "125",
+        "valenceElectrons": "118"
+    },
+    {
+        "name": "Silicon",
+        "symbol": "Si",
+        "mass": "28.0855(3)",
+        "firstIonEnergy": "8.15169",
+        "atomicRadius": "110",
+        "valenceElectrons": "111"
+    },
+    {
+        "name": "Phosphorus",
+        "symbol": "P",
+        "mass": "30.973762(2)",
+        "firstIonEnergy": "10.48669",
+        "atomicRadius": "100",
+        "valenceElectrons": "106"
+    },
+    {
+        "name": "Sulfur",
+        "symbol": "S",
+        "mass": "32.065(5)",
+        "firstIonEnergy": "10.36001",
+        "atomicRadius": "100",
+        "valenceElectrons": "102"
+    },
+    {
+        "name": "Chlorine",
+        "symbol": "Cl",
+        "mass": "35.453(2)",
+        "firstIonEnergy": "12.96764",
+        "atomicRadius": "100",
+        "valenceElectrons": "99"
+    },
+    {
+        "name": "Argon",
+        "symbol": "Ar",
+        "mass": "39.948(1)",
+        "firstIonEnergy": "15.75962",
+        "atomicRadius": "71",
+        "valenceElectrons": "97"
+    },
+    {
+        "name": "Potassium",
+        "symbol": "K",
+        "mass": "39.0983(1)",
+        "firstIonEnergy": "4.34066",
+        "atomicRadius": "220",
+        "valenceElectrons": "196"
+    },
+    {
+        "name": "Calcium",
+        "symbol": "Ca",
+        "mass": "40.078(4)",
+        "firstIonEnergy": "6.11316",
+        "atomicRadius": "180",
+        "valenceElectrons": "174"
+    },
+    {
+        "name": "Scandium",
+        "symbol": "Sc",
+        "mass": "44.955912(6)",
+        "firstIonEnergy": "6.5615",
+        "atomicRadius": "160",
+        "valenceElectrons": "144"
+    },
+    {
+        "name": "Titanium",
+        "symbol": "Ti",
+        "mass": "47.867(1)",
+        "firstIonEnergy": "6.8281",
+        "atomicRadius": "140",
+        "valenceElectrons": "136"
+    },
+    {
+        "name": "Vanadium",
+        "symbol": "V",
+        "mass": "50.9415(1)",
+        "firstIonEnergy": "6.7462",
+        "atomicRadius": "135",
+        "valenceElectrons": "125"
+    },
+    {
+        "name": "Chromium",
+        "symbol": "Cr",
+        "mass": "51.9961(6)",
+        "firstIonEnergy": "6.7665",
+        "atomicRadius": "140",
+        "valenceElectrons": "127"
+    },
+    {
+        "name": "Manganese",
+        "symbol": "Mn",
+        "mass": "54.938045(5)",
+        "firstIonEnergy": "7.43402",
+        "atomicRadius": "140",
+        "valenceElectrons": "139"
+    },
+    {
+        "name": "Iron",
+        "symbol": "Fe",
+        "mass": "55.845(2)",
+        "firstIonEnergy": "7.9024",
+        "atomicRadius": "140",
+        "valenceElectrons": "125"
+    },
+    {
+        "name": "Cobalt",
+        "symbol": "Co",
+        "mass": "58.933195(5)",
+        "firstIonEnergy": "7.6398",
+        "atomicRadius": "135",
+        "valenceElectrons": "121"
+    },
+    {
+        "name": "Nickel",
+        "symbol": "Ni",
+        "mass": "58.6934(4)",
+        "firstIonEnergy": "7.881",
+        "atomicRadius": "135",
+        "valenceElectrons": "126"
+    },
+    {
+        "name": "Copper",
+        "symbol": "Cu",
+        "mass": "63.546(3)",
+        "firstIonEnergy": "7.72638",
+        "atomicRadius": "135",
+        "valenceElectrons": "138"
+    },
+    {
+        "name": "Zinc",
+        "symbol": "Zn",
+        "mass": "65.38(2)",
+        "firstIonEnergy": "9.3942",
+        "atomicRadius": "135",
+        "valenceElectrons": "131"
+    },
+    {
+        "name": "Gallium",
+        "symbol": "Ga",
+        "mass": "69.723(1)",
+        "firstIonEnergy": "5.9993",
+        "atomicRadius": "130",
+        "valenceElectrons": "126"
+    },
+    {
+        "name": "Germanium",
+        "symbol": "Ge",
+        "mass": "72.63(1)",
+        "firstIonEnergy": "7.8994",
+        "atomicRadius": "125",
+        "valenceElectrons": "122"
+    },
+    {
+        "name": "Arsenic",
+        "symbol": "As",
+        "mass": "74.92160(2)",
+        "firstIonEnergy": "9.7886",
+        "atomicRadius": "115",
+        "valenceElectrons": "119"
+    },
+    {
+        "name": "Selenium",
+        "symbol": "Se",
+        "mass": "78.96(3)",
+        "firstIonEnergy": "9.75238",
+        "atomicRadius": "115",
+        "valenceElectrons": "116"
+    },
+    {
+        "name": "Bromine",
+        "symbol": "Br",
+        "mass": "79.904(1)",
+        "firstIonEnergy": "11.81381",
+        "atomicRadius": "115",
+        "valenceElectrons": "114"
+    },
+    {
+        "name": "Krypton",
+        "symbol": "Kr",
+        "mass": "83.798(2)",
+        "firstIonEnergy": "13.99961",
+        "atomicRadius": "88",
+        "valenceElectrons": "110"
+    },
+    {
+        "name": "Rubidium",
+        "symbol": "Rb",
+        "mass": "85.4678(3)",
+        "firstIonEnergy": "4.17713",
+        "atomicRadius": "235",
+        "valenceElectrons": "211"
+    },
+    {
+        "name": "Strontium",
+        "symbol": "Sr",
+        "mass": "87.62(1)",
+        "firstIonEnergy": "5.6949",
+        "atomicRadius": "200",
+        "valenceElectrons": "192"
+    },
+    {
+        "name": "Yttrium",
+        "symbol": "Y",
+        "mass": "88.90585(2)",
+        "firstIonEnergy": "6.2171",
+        "atomicRadius": "180",
+        "valenceElectrons": "162"
+    },
+    {
+        "name": "Zirconium",
+        "symbol": "Zr",
+        "mass": "91.224(2)",
+        "firstIonEnergy": "6.6339",
+        "atomicRadius": "155",
+        "valenceElectrons": "148"
+    },
+    {
+        "name": "Niobium",
+        "symbol": "Nb",
+        "mass": "92.90638(2)",
+        "firstIonEnergy": "6.75885",
+        "atomicRadius": "145",
+        "valenceElectrons": "137"
+    },
+    {
+        "name": "Molybdenum",
+        "symbol": "Mo",
+        "mass": "95.96(2)",
+        "firstIonEnergy": "7.09243",
+        "atomicRadius": "145",
+        "valenceElectrons": "145"
+    },
+    {
+        "name": "Technetium",
+        "symbol": "Tc",
+        "mass": "[98]",
+        "firstIonEnergy": "7.28",
+        "atomicRadius": "135",
+        "valenceElectrons": "156"
+    },
+    {
+        "name": "Ruthenium",
+        "symbol": "Ru",
+        "mass": "101.07(2)",
+        "firstIonEnergy": "7.3605",
+        "atomicRadius": "130",
+        "valenceElectrons": "126"
+    },
+    {
+        "name": "Rhodium",
+        "symbol": "Rh",
+        "mass": "102.90550(2)",
+        "firstIonEnergy": "7.4589",
+        "atomicRadius": "135",
+        "valenceElectrons": "135"
+    },
+    {
+        "name": "Palladium",
+        "symbol": "Pd",
+        "mass": "106.42(1)",
+        "firstIonEnergy": "8.3369",
+        "atomicRadius": "140",
+        "valenceElectrons": "131"
+    },
+    {
+        "name": "Silver",
+        "symbol": "Ag",
+        "mass": "107.8682(2)",
+        "firstIonEnergy": "7.5762",
+        "atomicRadius": "160",
+        "valenceElectrons": "153"
+    },
+    {
+        "name": "Cadmium",
+        "symbol": "Cd",
+        "mass": "112.411(8)",
+        "firstIonEnergy": "8.9938",
+        "atomicRadius": "155",
+        "valenceElectrons": "148"
+    },
+    {
+        "name": "Indium",
+        "symbol": "In",
+        "mass": "114.818(3)",
+        "firstIonEnergy": "5.78636",
+        "atomicRadius": "155",
+        "valenceElectrons": "144"
+    },
+    {
+        "name": "Tin",
+        "symbol": "Sn",
+        "mass": "118.710(7)",
+        "firstIonEnergy": "7.3439",
+        "atomicRadius": "145",
+        "valenceElectrons": "141"
+    },
+    {
+        "name": "Antimony",
+        "symbol": "Sb",
+        "mass": "121.760(1)",
+        "firstIonEnergy": "8.6084",
+        "atomicRadius": "145",
+        "valenceElectrons": "138"
+    },
+    {
+        "name": "Tellurium",
+        "symbol": "Te",
+        "mass": "127.60(3)",
+        "firstIonEnergy": "9.0096",
+        "atomicRadius": "140",
+        "valenceElectrons": "135"
+    },
+    {
+        "name": "Iodine",
+        "symbol": "I",
+        "mass": "126.90447(3)",
+        "firstIonEnergy": "10.45126",
+        "atomicRadius": "140",
+        "valenceElectrons": "133"
+    },
+    {
+        "name": "Xenon",
+        "symbol": "Xe",
+        "mass": "131.293(6)",
+        "firstIonEnergy": "12.1298",
+        "atomicRadius": "108",
+        "valenceElectrons": "130"
+    },
+    {
+        "name": "Caesium",
+        "symbol": "Cs",
+        "mass": "132.9054519(2)",
+        "firstIonEnergy": "3.8939",
+        "atomicRadius": "260",
+        "valenceElectrons": "225"
+    },
+    {
+        "name": "Barium",
+        "symbol": "Ba",
+        "mass": "137.327(7)",
+        "firstIonEnergy": "5.2117",
+        "atomicRadius": "215",
+        "valenceElectrons": "198"
+    },
+    {
+        "name": "Lanthanum",
+        "symbol": "La",
+        "mass": "138.90547(7)",
+        "firstIonEnergy": "5.5769",
+        "atomicRadius": "195",
+        "valenceElectrons": "169"
+    },
+    {
+        "name": "Cerium",
+        "symbol": "Ce",
+        "mass": "140.116(1)",
+        "firstIonEnergy": "5.5387",
+        "atomicRadius": "185",
+        "valenceElectrons": "no data"
+    },
+    {
+        "name": "Praseodymium",
+        "symbol": "Pr",
+        "mass": "140.90765(2)",
+        "firstIonEnergy": "5.473",
+        "atomicRadius": "185",
+        "valenceElectrons": "no data"
+    },
+    {
+        "name": "Neodymium",
+        "symbol": "Nd",
+        "mass": "144.242(3)",
+        "firstIonEnergy": "5.525",
+        "atomicRadius": "185",
+        "valenceElectrons": "no data"
+    },
+    {
+        "name": "Promethium",
+        "symbol": "Pm",
+        "mass": "[145]",
+        "firstIonEnergy": "5.582",
+        "atomicRadius": "185",
+        "valenceElectrons": "no data"
+    },
+    {
+        "name": "Samarium",
+        "symbol": "Sm",
+        "mass": "150.36(2)",
+        "firstIonEnergy": "5.6436",
+        "atomicRadius": "185",
+        "valenceElectrons": "no data"
+    },
+    {
+        "name": "Europium",
+        "symbol": "Eu",
+        "mass": "151.964(1)",
+        "firstIonEnergy": "5.6704",
+        "atomicRadius": "185",
+        "valenceElectrons": "no data"
+    },
+    {
+        "name": "Gadolinium",
+        "symbol": "Gd",
+        "mass": "157.25(3)",
+        "firstIonEnergy": "6.1501",
+        "atomicRadius": "180",
+        "valenceElectrons": "no data"
+    },
+    {
+        "name": "Terbium",
+        "symbol": "Tb",
+        "mass": "158.92535(2)",
+        "firstIonEnergy": "5.8638",
+        "atomicRadius": "175",
+        "valenceElectrons": "no data"
+    },
+    {
+        "name": "Dysprosium",
+        "symbol": "Dy",
+        "mass": "162.500(1)",
+        "firstIonEnergy": "5.9389",
+        "atomicRadius": "175",
+        "valenceElectrons": "no data"
+    },
+    {
+        "name": "Holmium",
+        "symbol": "Ho",
+        "mass": "164.93032(2)",
+        "firstIonEnergy": "6.0215",
+        "atomicRadius": "175",
+        "valenceElectrons": "no data"
+    },
+    {
+        "name": "Erbium",
+        "symbol": "Er",
+        "mass": "167.259(3)",
+        "firstIonEnergy": "6.1077",
+        "atomicRadius": "175",
+        "valenceElectrons": "no data"
+    },
+    {
+        "name": "Thulium",
+        "symbol": "Tm",
+        "mass": "168.93421(2)",
+        "firstIonEnergy": "6.18431",
+        "atomicRadius": "175",
+        "valenceElectrons": "no data"
+    },
+    {
+        "name": "Ytterbium",
+        "symbol": "Yb",
+        "mass": "173.054(5)",
+        "firstIonEnergy": "6.25416",
+        "atomicRadius": "175",
+        "valenceElectrons": "no data"
+    },
+    {
+        "name": "Lutetium",
+        "symbol": "Lu",
+        "mass": "174.9668(1)",
+        "firstIonEnergy": "5.4259",
+        "atomicRadius": "175",
+        "valenceElectrons": "160"
+    },
+    {
+        "name": "Hafnium",
+        "symbol": "Hf",
+        "mass": "178.49(2)",
+        "firstIonEnergy": "6.82507",
+        "atomicRadius": "155",
+        "valenceElectrons": "150"
+    },
+    {
+        "name": "Tantalum",
+        "symbol": "Ta",
+        "mass": "180.94788(2)",
+        "firstIonEnergy": "7.5496",
+        "atomicRadius": "145",
+        "valenceElectrons": "138"
+    },
+    {
+        "name": "Tungsten",
+        "symbol": "W",
+        "mass": "183.84(1)",
+        "firstIonEnergy": "7.864",
+        "atomicRadius": "135",
+        "valenceElectrons": "146"
+    },
+    {
+        "name": "Rhenium",
+        "symbol": "Re",
+        "mass": "186.207(1)",
+        "firstIonEnergy": "7.8335",
+        "atomicRadius": "135",
+        "valenceElectrons": "159"
+    },
+    {
+        "name": "Osmium",
+        "symbol": "Os",
+        "mass": "190.23(3)",
+        "firstIonEnergy": "8.4382",
+        "atomicRadius": "130",
+        "valenceElectrons": "128"
+    },
+    {
+        "name": "Iridium",
+        "symbol": "Ir",
+        "mass": "192.217(3)",
+        "firstIonEnergy": "8.967",
+        "atomicRadius": "135",
+        "valenceElectrons": "137"
+    },
+    {
+        "name": "Platinum",
+        "symbol": "Pt",
+        "mass": "195.084(9)",
+        "firstIonEnergy": "8.9587",
+        "atomicRadius": "135",
+        "valenceElectrons": "128"
+    },
+    {
+        "name": "Gold",
+        "symbol": "Au",
+        "mass": "196.966569(4)",
+        "firstIonEnergy": "9.2255",
+        "atomicRadius": "135",
+        "valenceElectrons": "144"
+    },
+    {
+        "name": "Mercury",
+        "symbol": "Hg",
+        "mass": "200.59(2)",
+        "firstIonEnergy": "10.4375",
+        "atomicRadius": "150",
+        "valenceElectrons": "149"
+    },
+    {
+        "name": "Thallium",
+        "symbol": "Tl",
+        "mass": "204.3833(2)",
+        "firstIonEnergy": "6.1082",
+        "atomicRadius": "190",
+        "valenceElectrons": "148"
+    },
+    {
+        "name": "Lead",
+        "symbol": "Pb",
+        "mass": "207.2(1)",
+        "firstIonEnergy": "7.41666",
+        "atomicRadius": "180",
+        "valenceElectrons": "147"
+    },
+    {
+        "name": "Bismuth",
+        "symbol": "Bi",
+        "mass": "208.98040(1)",
+        "firstIonEnergy": "7.2856",
+        "atomicRadius": "160",
+        "valenceElectrons": "146"
+    },
+    {
+        "name": "Polonium",
+        "symbol": "Po",
+        "mass": "[209]",
+        "firstIonEnergy": "8.417",
+        "atomicRadius": "190",
+        "valenceElectrons": "no data"
+    },
+    {
+        "name": "Astatine",
+        "symbol": "At",
+        "mass": "[210]",
+        "firstIonEnergy": "",
+        "atomicRadius": "no data",
+        "valenceElectrons": "no data"
+    },
+    {
+        "name": "Radon",
+        "symbol": "Rn",
+        "mass": "[222]",
+        "firstIonEnergy": "10.7485",
+        "atomicRadius": "120",
+        "valenceElectrons": "145"
+    },
+    {
+        "name": "Francium",
+        "symbol": "Fr",
+        "mass": "[223]",
+        "firstIonEnergy": "4.0727",
+        "atomicRadius": "no data",
+        "valenceElectrons": "no data"
+    },
+    {
+        "name": "Radium",
+        "symbol": "Ra",
+        "mass": "[226]",
+        "firstIonEnergy": "5.2784",
+        "atomicRadius": "215",
+        "valenceElectrons": "no data"
+    },
+    {
+        "name": "Actinium",
+        "symbol": "Ac",
+        "mass": "[227]",
+        "firstIonEnergy": "5.17",
+        "atomicRadius": "195",
+        "valenceElectrons": "no data"
+    },
+    {
+        "name": "Thorium",
+        "symbol": "Th",
+        "mass": "232.03806(2)",
+        "firstIonEnergy": "6.3067",
+        "atomicRadius": "180",
+        "valenceElectrons": "no data"
+    },
+    {
+        "name": "Protactinium",
+        "symbol": "Pa",
+        "mass": "231.03588(2)",
+        "firstIonEnergy": "5.89",
+        "atomicRadius": "180",
+        "valenceElectrons": "no data"
+    },
+    {
+        "name": "Uranium",
+        "symbol": "U",
+        "mass": "238.02891(3)",
+        "firstIonEnergy": "6.19405",
+        "atomicRadius": "175",
+        "valenceElectrons": "no data"
+    },
+    {
+        "name": "Neptunium",
+        "symbol": "Np",
+        "mass": "[237]",
+        "firstIonEnergy": "6.2657",
+        "atomicRadius": "175",
+        "valenceElectrons": "no data"
+    },
+    {
+        "name": "Plutonium",
+        "symbol": "Pu",
+        "mass": "[244]",
+        "firstIonEnergy": "6.0262",
+        "atomicRadius": "175",
+        "valenceElectrons": "no data"
+    },
+    {
+        "name": "Americium",
+        "symbol": "Am",
+        "mass": "[243]",
+        "firstIonEnergy": "5.9738",
+        "atomicRadius": "175",
+        "valenceElectrons": "no data"
+    },
+    {
+        "name": "Curium",
+        "symbol": "Cm",
+        "mass": "[247]",
+        "firstIonEnergy": "5.9915",
+        "atomicRadius": "",
+        "valenceElectrons": ""
+    },
+    {
+        "name": "Berkelium",
+        "symbol": "Bk",
+        "mass": "[247]",
+        "firstIonEnergy": "6.1979",
+        "atomicRadius": "",
+        "valenceElectrons": ""
+    },
+    {
+        "name": "Californium",
+        "symbol": "Cf",
+        "mass": "[251]",
+        "firstIonEnergy": "6.2817",
+        "atomicRadius": "",
+        "valenceElectrons": ""
+    },
+    {
+        "name": "Einsteinium",
+        "symbol": "Es",
+        "mass": "[252]",
+        "firstIonEnergy": "6.42",
+        "atomicRadius": "",
+        "valenceElectrons": ""
+    },
+    {
+        "name": "Fermium",
+        "symbol": "Fm",
+        "mass": "[257]",
+        "firstIonEnergy": "6.5",
+        "atomicRadius": "",
+        "valenceElectrons": ""
+    },
+    {
+        "name": "Mendelevium",
+        "symbol": "Md",
+        "mass": "[258]",
+        "firstIonEnergy": "6.58",
+        "atomicRadius": "",
+        "valenceElectrons": ""
+    },
+    {
+        "name": "Nobelium",
+        "symbol": "No",
+        "mass": "[259]",
+        "firstIonEnergy": "6.65",
+        "atomicRadius": "",
+        "valenceElectrons": ""
+    },
+    {
+        "name": "Lawrencium",
+        "symbol": "Lr",
+        "mass": "[266]",
+        "firstIonEnergy": "4.9",
+        "atomicRadius": "",
+        "valenceElectrons": ""
+    },
+    {
+        "name": "Rutherfordium",
+        "symbol": "Rf",
+        "mass": "[267]",
+        "firstIonEnergy": "6",
+        "atomicRadius": "",
+        "valenceElectrons": ""
+    },
+    {
+        "name": "Dubnium",
+        "symbol": "Db",
+        "mass": "[268]",
+        "firstIonEnergy": "",
+        "atomicRadius": "",
+        "valenceElectrons": ""
+    },
+    {
+        "name": "Seaborgium",
+        "symbol": "Sg",
+        "mass": "[269]",
+        "firstIonEnergy": "",
+        "atomicRadius": "",
+        "valenceElectrons": ""
+    },
+    {
+        "name": "Bohrium",
+        "symbol": "Bh",
+        "mass": "[270]",
+        "firstIonEnergy": "",
+        "atomicRadius": "",
+        "valenceElectrons": ""
+    },
+    {
+        "name": "Hassium",
+        "symbol": "Hs",
+        "mass": "[277]",
+        "firstIonEnergy": "",
+        "atomicRadius": "",
+        "valenceElectrons": ""
+    },
+    {
+        "name": "Meitnerium",
+        "symbol": "Mt",
+        "mass": "[278]",
+        "firstIonEnergy": "",
+        "atomicRadius": "",
+        "valenceElectrons": ""
+    },
+    {
+        "name": "Darmstadtium",
+        "symbol": "Ds",
+        "mass": "[281]",
+        "firstIonEnergy": "",
+        "atomicRadius": "",
+        "valenceElectrons": ""
+    },
+    {
+        "name": "Roentgenium",
+        "symbol": "Rg",
+        "mass": "[282]",
+        "firstIonEnergy": "",
+        "atomicRadius": "",
+        "valenceElectrons": ""
+    },
+    {
+        "name": "Copernicium",
+        "symbol": "Cn",
+        "mass": "[285]",
+        "firstIonEnergy": "",
+        "atomicRadius": "",
+        "valenceElectrons": ""
+    },
+    {
+        "name": "Nihonium",
+        "symbol": "Nh",
+        "mass": "[286]",
+        "firstIonEnergy": "",
+        "atomicRadius": "",
+        "valenceElectrons": ""
+    },
+    {
+        "name": "Flerovium",
+        "symbol": "Fl",
+        "mass": "[289]",
+        "firstIonEnergy": "",
+        "atomicRadius": "",
+        "valenceElectrons": ""
+    },
+    {
+        "name": "Moscovium",
+        "symbol": "Mc",
+        "mass": "[290]",
+        "firstIonEnergy": "",
+        "atomicRadius": "",
+        "valenceElectrons": ""
+    },
+    {
+        "name": "Livermorium",
+        "symbol": "Lv",
+        "mass": "[293]",
+        "firstIonEnergy": "",
+        "atomicRadius": "",
+        "valenceElectrons": ""
+    },
+    {
+        "name": "Tennessine",
+        "symbol": "Ts",
+        "mass": "[294]",
+        "firstIonEnergy": "",
+        "atomicRadius": "",
+        "valenceElectrons": ""
+    },
+    {
+        "name": "Oganesson",
+        "symbol": "Og",
+        "mass": "[294]",
+        "firstIonEnergy": "",
+        "atomicRadius": "",
+        "valenceElectrons": ""
+    }
+]

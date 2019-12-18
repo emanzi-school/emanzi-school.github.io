@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Chem Project</title>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navigation">
+                <a class="navbar-brand" href="#" open-activity="home">Periodic Table Research Project</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                    <a id="nav-button-home" class="nav-item nav-link active" href="index.html">Home</a>
+                    <a id="nav-button-data" class="nav-item nav-link" href="dataview.html" open-activity="data">Datasheet</a>
+                    <a id="nav-button-graph" class="nav-item nav-link" href="graphhome.html" open-activity="graph-home">Graphs</a>
+                    </div>
+                </div>
+            </nav>
+            <!-- Start the actual content now -->
+            <div id="content" class="container">
+                <div class="jumbotron">
+                    <h1 class="display-4">Periodic Table Research Project</h1>
+                    <p class="lead">A school project by Ethan Manzi</p>
+                </div>
+                <p>
+                    This is my online version of my project. I choose this, because working with all this is far easier in
+                    HTML, in my opinion. Instead of having to download anything I need, create a Pages document, export it either
+                    as a Word document (and risk it not converting properly), or export it as a PDF. I figure this way, in this format,
+                    I can actually use this as a tool for the class! 
+                    <br>
+                    There's a few pages you can go to here. If you want all this data formated like a normal printable document, 
+                    click <a href="printable.html">this link</a>. If you want to see the table with all the information for the 
+                    elements in it, then <a href="dataview.html">click this link</a>, if you want to see the graphs then 
+                    <a href="graphhome.html">click this link</a>. If you want to go right to the "atomic radius / atomic number"
+                    graph, then use <a href="graphview.html?x=number&y=radius">this link</a>, and to go right to the 
+                    "ionization energy / atomic number" graph, then use 
+                    <a href="graphview.html?x=number&y=ionenergy">this link</a>.
+                </p>
+                <br>
+                <p>
+                    <h5>Sources</h5>
+                    <ul>
+                        <li>https://en.wikipedia.org/wiki/List_of_elements_by_atomic_properties</li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+    </body>
+</html>
