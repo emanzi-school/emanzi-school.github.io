@@ -3,6 +3,7 @@
         "name": "Hydrogen",
         "symbol": "H",
         "mass": "1.007",
+        "firstIonEnergy": "13.59844",
         "atomicRadius": "25",
         "valenceElectrons": "38"
     },
