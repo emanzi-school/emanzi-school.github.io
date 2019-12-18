@@ -7,10 +7,51 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.css" integrity="sha256-IvM9nJf/b5l2RoebiFno92E5ONttVyaEEsdemDC6iQA=" crossorigin="anonymous" />
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.js" integrity="sha256-8zyeSXm+yTvzUN1VgAOinFgaVFEFTyYzWShOy9w7WoQ=" crossorigin="anonymous"></script>
+    
+        <style>
+            body {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                overflow: hidden;
+            }
+            .graphview {
+                width: 100%;
+                min-height: 500px !important;
+                height: 100%;
+                border: 0px;
+            }
+
+            @media (max-width: 575.98px) {
+                
+            }
+
+            @media (max-width: 767.98px) {
+            
+            }
+
+            @media (max-width: 991.98px) {
+
+            }
+
+            @media (max-width: 1199.98px) {
+                .graphview {
+                    min-width: 700px !important;
+                }
+            }
+
+            .container, .container .row, .container .row .col-md {
+                position: inherit;
+                height: 100%;
+                width: 100%;
+                min-height: 100% !important;
+            }
+        </style>
     </head>
     <body>
         <div class="container-fluid">
@@ -31,20 +72,67 @@
             <br>
 
             <!-- Start the actual content now -->
-            <div id="container" class="container">
-                <canvas id="graph" width="500" height="500" style="border: 2px solid black;"></canvas>
+            <div class="container">
+                <div class="row h-100">
+                    <div class="col-md h-100">
+                        <iframe id="graph" class="graphview" width="500", height="500"></iframe>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-md">
+                        <h5>Graph Control</h5>
+                        <hr>
+                        <div class="row">
+                            <div class="col-md">
+                                <div class="form-group">
+                                    <label for="xaxisselect">X Axis</label>
+                                    <select class="form-control" id="xaxisselect">
+                                        <option value="number">Atomic Number</option>
+                                        <option value="period">Period</option>
+                                        <option value="group">Group</option>
+                                        <option value="meltingPoint">Melting Point</option>
+                                        <option value="boilingPoint">Boiling Point</option>
+                                        <option value="density">Density</option>
+                                        <option value="mass">Mass</option>
+                                        <option value="atomicRadius">Atomic Radius</option>
+                                        <option value="firstIronEnergy">First ionization energy</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-sm">
+                                <div class="form-group">
+                                    <label for="yaxisselect">Y Axis</label>
+                                    <select class="form-control" id="yaxisselect">
+                                        <option value="number">Atomic Number</option>
+                                        <option value="period">Period</option>
+                                        <option value="group">Group</option>
+                                        <option value="meltingPoint">Melting Point</option>
+                                        <option value="boilingPoint">Boiling Point</option>
+                                        <option value="density">Density</option>
+                                        <option value="mass">Mass</option>
+                                        <option value="atomicRadius">Atomic Radius</option>
+                                        <option value="firstIronEnergy">First ionization energy</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </body>
 
     <!-- My Code-->
     <script>
-        elems = []
-
-        function $_GET(q,s) {
-            s = s ? s : window.location.search;
-            var re = new RegExp('&'+q+'(?:=([^&]*))?(?=&|$)','i');
-            return (s=s.replace(/^?/,'&').match(re)) ? (typeof s[1] == 'undefined' ? '' : decodeURIComponent(s[1])) : undefined;
+        function GET(variable) {
+            var query = window.location.search.substring(1);
+            var vars = query.split("&");
+            for (var i=0;i<vars.length;i++) {
+                    var pair = vars[i].split("=");
+                    if(pair[0] == variable){return pair[1];}
+            }
+            return(null);
         }
 
         function httpGetAsync(url, callback) {
@@ -63,60 +151,18 @@
             return val
         }
 
-        function getGraphData(xaxis, yaxis) {
-            var dataset = []
-            for (var i=0; i<elems.length; i++) {
-                console.log(`POINT # ${i} => (${elems[i][xaxis]},${elems[i][yaxis]})`)
-                dataset.push({
-                    x: elems[i][xaxis],
-                    y: elems[i][yaxis]
-                })
-            }
-            return dataset
-        }
-
-        function loadGraph() {
-            console.log(`There are ${elems.length} elements avaiable!`)
-            console.log("displaying graph")
-            var xaxis = "number"
-            var yaxis = "atomicRadius"
-
-            var chart = new Chart(document.getElementById('graph').getContext('2d'), {
-                type: "line",
-                data: getGraphData(),
-                options: {}
-            })
-            console.log("graph displayed!")
+        function updateGraph() {
+            var x = document.getElementById("xaxisselect").value
+            var y = document.getElementById("yaxisselect").value
+            document.getElementById('graph').src = `./html/graph.html?x=${x}&y=${y}`
         }
 
         function load() {
-            console.log("Fetching elements!")
-            httpGetAsync("https://emanzi-school.github.io/chem/3/9/data/elements.json", (response) => {
-                const elements = JSON.parse(response)
-                const content = document.getElementById("content")
-                for (var i=0; i<elements.length; i++) {
-                    console.log(`[!] => (${elements[i].number},${elements[i].atomicRadius})`)
-                    elems.push({
-                        group: elements[i].Group,
-                        meltingPoint: elements[i].meltingPoint,
-                        period: elements[i].Period,
-                        boilingPoint: elements[i].boilingPoint,
-                        block: elements[i].Block,
-                        density: elements[i].density,
-                        number: elements[i].number,
-                        relativeAtomicMass: elements[i].relativeAtomicMass,
-                        stateAtTwentyC: elements[i].stateAtTwentyC,
-                        keyIsotopes: [i].keyIsotopes,
-                        electronConfiguration: elements[i].electronConfiguration,
-                        symbol: elements[i].symbol,
-                        name: elements[i].name,
-                        mass: elements[i].mass,
-                        atomicRadius: elements[i].atomicRadius,
-                        firstIronEnergy: elements[i].firstIonEnergy
-                    })
-                }
-                loadGraph()
-            })
+            var xaxis = valueOr(GET("x"), "meltingPoint")
+            var yaxis = valueOr(GET("y"), "boilingPoint")
+            updateGraph()
+            document.getElementById('xaxisselect').addEventListener('input', updateGraph)
+            document.getElementById('yaxisselect').addEventListener('input', updateGraph)
         }
 
         window.addEventListener("load", () => {
