@@ -64,7 +64,8 @@
             xmlHttp.send(null)
         }
 
-        document.addEventListener("load", () => {
+        function load() {
+            console.log("Fetching elements!")
             httpGetAsync("https://emanzi-school.github.io/chem/3/9/data/elements.json", (response) => {
                 const elements = JSON.parse(response)
                 const content = document.getElementById("content")
@@ -98,6 +99,10 @@
                     `
                 }
             })
+        }
+
+        window.addEventListener("load", () => {
+            load()
         })
     </script>
 </html>
