@@ -64,6 +64,12 @@
             xmlHttp.send(null)
         }
 
+        function valueOr(val, def) {
+            if (def == null || def == undefined) def = ""
+            if (val == null || val == undefined) return def
+            return val
+        }
+
         function load() {
             console.log("Fetching elements!")
             httpGetAsync("https://emanzi-school.github.io/chem/3/9/data/elements.json", (response) => {
@@ -74,14 +80,14 @@
                     element = elements[i]
                     content.innerHTML += `
                         <tr>
-                            <td>${element.symbol}</td>
-                            <td>${element.name}</td>
+                            <td>${valueOr(element.symbol)}</td>
+                            <td>${valueOr(element.name)}</td>
                             <td>Atomic Number</td>
-                            <td>${element.mass}</td>
+                            <td>${valueOr(element.mass)}</td>
                             <td>Melting Point (<sup>o</sup>C)</td>
                             <td>Boiling Point (<sup>o</sup>C)</td>
                             <td>Electronegativity Value</td>
-                            <td>${element.atomicRadius}</td>
+                            <td>${valueOr(element.atomicRadius)}</td>
                             <td>First Ionization Energy</td>
                         </tr>
                     `
