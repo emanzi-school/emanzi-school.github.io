@@ -1,3 +1,6 @@
 [submodule "chem/projects/3/14"]
 	path = chem/projects/3/14
 	url = https://github.com/emanzi-school/Chemistry-3.14-Periodic-Table-Research-Project.git
+[submodule "Technology/projects/2/3"]
+	path = Technology/projects/2/3
+	url = https://github.com/emanzi-school/POT1B-2.3.git
